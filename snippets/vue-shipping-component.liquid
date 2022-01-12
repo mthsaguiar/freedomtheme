@@ -1,0 +1,13 @@
+<!-- vue-shipping-component => [cart-drawer; vue-shipping-section] -->
+{{ 'vue-shipping-component.css' | asset_url | stylesheet_tag }}
+<script src="{{ 'vue-shipping-component.js' | asset_url }}" defer="defer"></script>
+
+{%- capture shipping_container -%}
+<div class="shipping-bar_component">
+  <span class="shipping--bar__message">
+    <div v-html="shipping_message" ></div>
+  </span>
+</div>
+{%- endcapture -%}
+
+<script type="text/x-template" id="shipping-template">{{ shipping_container }}</script>

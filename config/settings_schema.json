@@ -1092,6 +1092,66 @@
     ]
   },
   {
+    "name": "CART DRAWER",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Settings"
+      },
+      {
+        "type": "checkbox",
+        "id": "cart_drawer_enabled",
+        "default": true,
+        "label": "Cart Drawer"
+      }
+    ]
+  },
+  {
+    "name": "SHIPPING BAR",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Settings"
+      },
+      {
+        "type": "text",
+        "id": "shipping_bar_content",
+        "default": "Free Shipping over",
+        "label": "Shipping Information Before Value"
+      },
+      {
+        "type": "text",
+        "id": "free_shipping_value",
+        "default": "$ 100,00",
+        "label": "Free Shipping Value"
+      },
+      {
+        "type": "text",
+        "id": "free_shipping_message",
+        "default": "Contratulations! We'll pay your shipping!",
+        "label": "Free Shipping Achievement message"
+      },
+      {
+        "type": "text",
+        "id": "missing_value_message_before",
+        "default": "Missing",
+        "label": "Free Shipping Missing Value Message(before)"
+      },
+      {
+        "type": "text",
+        "id": "missing_value_message_after",
+        "default": "to FREE SHIPPING!",
+        "label": "Free Shipping Missing Value Message(after)"
+      },
+      {
+        "type": "text",
+        "id": "free shipping message",
+        "default": "+ Save up to 50%",
+        "label": "Shipping Information After Value"
+      }
+    ]
+  },
+  {
     "name": "t:settings_schema.search_input.name",
     "settings": [
       {

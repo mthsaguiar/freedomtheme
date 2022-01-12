@@ -1,0 +1,113 @@
+{% style %}
+:root{
+--shipping-background-color: {{ section.settings.shipping_background }};
+--shipping-text-color: {{ section.settings.shipping_text-color }};
+--cart-drawer-buttons: {{ section.settings.buttons_color }};
+}
+{% endstyle %}
+{{ 'vue-cart-drawer.css' | asset_url | stylesheet_tag }}
+
+{%- render 'vue-shipping-component' -%}
+
+
+<style>
+  .cart-drawer__container .shipping-bar_component {
+    background-color: var(--shipping-background-color);
+  }
+</style>
+
+<div id="cart-drawer" class="cart-drawer__closed">
+  <div class="cart-drawer__container">
+    <vue-shipping-component :cart="cart_current"></vue-shipping-component>
+    <h1 class="cart-drawer__title" v-if="cart_current.item_count != 0">Já é quase seu...</h1>
+    <h1 class="cart-drawer__empty" v-if="cart_current.item_count != 0">veja o que está na sua sacola</h1>
+    <hr class="cart-drawer__divider" v-if="cart_current.item_count != 0">
+    <h1 class="cart-drawer__title" v-if="cart_current.item_count == 0">Sua sacola está vazia</h1>
+    <h1 class="cart-drawer__empty" v-if="cart_current.item_count == 0">Faça login para ver seus itens salvos ou
+    adicione itens acessando o menu produtos</h1>
+    <div class="cart-drawer__below-shipping">
+      <div class="cart-drawer__items">
+        <div v-for="(item, index) in cart_current.items" v-if="item.quantity > 0"  class="cart-drawer__item">
+          <div class="cart-drawer__item-img" v-bind:class="'color'+counter[index]">
+            <img :src="item.image" :alt="item.featured_image.alt" loading="lazy" :height="item.featured_image.height"
+              :width="item.featured_image.width">
+          </div>
+          <div class="cart-drawer__item-content flex-direction-column">
+            <div class="cart-drawer__item-title-price flex-direction-column">
+              <h1 class="cart-drawer__item-title">
+                ${item.title}
+              </h1>
+            </div>
+            <div class="cart-drawer__qtt-rmv flex-direction-row">
+              <div class="cart-drawer__item-qtt">
+                <button aria-label="Plus" @click="decreaseItem(item.variant_id,item.quantity, index)"
+                  class="cart-drawer__qtt-minus">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24">
+                    <path d="M0 10h24v4h-24z" />
+                  </svg>
+                </button>
+                <input @change="updateItem($event, item.variant_id, index)" :value="item.quantity" type="number"
+                  class="cart-drawer__qtt-current" name="quantity">
+                <button aria-label="Minus" @click="increaseItem(item.variant_id, item.quantity, index)"
+                  class="cart-drawer__qtt-plus">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24">
+                    <path d="M24 10h-10v-10h-4v10h-10v4h10v10h4v-10h10z" />
+                  </svg>
+                </button>
+                <span class="cart-drawer__item-price">
+                  ${item.price | money}
+                </span>
+              </div>
+              <div @click="removeItem(item.variant_id, index)" class="cart-drawer__item-rmv">
+                <span class="cart-drawer__remove">Remover</span>
+              <div v-if="load_ring[index]" class="lds-dual-ring"> <span></span> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <span v-if="cart_current.total_price > 0"  class="total-price__price"><span>Total: </span><span>${ cart_current.total_price | money }</span></span>
+      
+      <div v-if="cart_current.total_price == 0"  class="login-products__btn">
+        <a href="/account/login" class="login">Fazer login</a>
+        <a href="/collections/produtos-individuais" class="products">Produtos</a>
+      </div>
+      
+      <b v-if="cart_current.item_count > 0" class="hr anim"> </b>
+
+      <div v-if="cart_current.total_price > 0" class="total-price-checkout__container">
+        <button @click="sendToCheckout($event)" class="checkout__btn"> <span>FINALIZAR A COMPRA</span> </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<script src="{{ 'vue-cart-drawer.js' | asset_url }}" defer="defer"></script>
+
+
+{% schema %}
+{
+"name": "Cart Drawer Settings",
+"settings":[
+{
+"type": "color",
+"id": "buttons_color",
+"label": "Quantity, Remove and Border",
+"default": "#3c3c3c"
+},
+{
+"type": "color",
+"id": "shipping_background",
+"label": "Shipping Background",
+"default": "#3c3c3c"
+},
+{
+"type": "color",
+"id": "shipping_text-color",
+"label": "Shipping Text Color",
+"default": "#3c3c3c"
+}
+]
+}
+{% endschema %}

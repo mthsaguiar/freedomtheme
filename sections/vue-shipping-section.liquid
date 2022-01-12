@@ -1,0 +1,49 @@
+{% style %}
+:root{
+  --shipping-background-color: {{ section.settings.shipping_background }};
+  --shipping-text-color: {{ section.settings.shipping_text-color }};
+}
+{% endstyle %}
+
+{{ 'vue-shipping-section.css' | asset_url | stylesheet_tag }}
+
+
+{%- render 'vue-shipping-component' -%}
+
+<div id="vue-shipping-section">
+    <vue-shipping-component :cart="cart_current"></vue-shipping-component>
+</div>
+
+
+<script src="{{ 'vue-shipping-section.js' | asset_url }}" defer="defer"></script>
+
+
+{% schema %}
+{
+    "name": "Dynamic Shipping Bar",
+    "tag": "section",
+    "settings": [
+        {
+            "type": "header",
+            "content": "Dynamic Shipping Bar Settings"
+        },
+        {
+            "type": "color",
+            "id": "shipping_background",
+            "label": "Shipping Background",
+            "default": "#3c3c3c"
+        },
+        {
+            "type": "color",
+            "id": "shipping_text-color",
+            "label": "Shipping Text Color",
+            "default": "#3c3c3c"
+        }
+    ],
+    "presets": [
+        {
+            "name":"Dynamic Shipping Bar"
+        }
+    ]
+}
+{% endschema %}

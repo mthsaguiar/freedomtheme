@@ -185,8 +185,10 @@
         }
       }
     {% endstyle %}
+    
 
     {{ 'base.css' | asset_url | stylesheet_tag }}
+    {{ 'custom-styles.css' | asset_url | stylesheet_tag }}
 
     {%- unless settings.type_body_font.system? -%}
       <link rel="preload" as="font" href="{{ settings.type_body_font | font_url }}" type="font/woff2" crossorigin>
@@ -204,15 +206,21 @@
       document.documentElement.classList.add('shopify-design-mode');
     }
     </script>
+    <script src="{{ 'vue.js' | asset_url }}" defer="defer"></script>
   </head>
 
   <body class="gradient">
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
       {{ "accessibility.skip_to_text" | t }}
     </a>
+    {%- if settings.cart_drawer_enabled -%}
+      {% section 'vue-cart-drawer' %}
+    {%- endif -%}  
 
-    {% section 'announcement-bar' %}
+    {% section 'vue-shipping-section' %}
     {% section 'header' %}
+    {% section 'full-page__overlay.liquid' %}
+
     <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
       {{ content_for_layout }}
     </main>
@@ -249,7 +257,17 @@
         pauseSlideshow: `{{ 'sections.slideshow.pause_slideshow' | t }}`,
         playSlideshow: `{{ 'sections.slideshow.play_slideshow' | t }}`,
       }
+      window.variables = {
+        cart: {{ cart | json }},
+        free_shipping_value: `{{ settings.free_shipping_value }}`,
+        shipping_message_1 : `{{ settings.shipping_bar_content }}`,
+        shipping_message_2: `{{ settings.shipping_bar_content_2 }}`,
+        free_shipping_message: `{{ settings.free_shipping_message }}`,
+        missing_value_message_before: `{{ settings.missing_value_message_before }}`,
+        missing_value_message_after: `{{ settings.missing_value_message_after }}`
+      }
     </script>
+
 
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
