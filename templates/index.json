@@ -2,18 +2,33 @@
   "sections": {
     "image_banner": {
       "type": "image-banner",
+      "blocks": {
+        "19b4b371-3032-4e51-8f45-bba44ad1f609": {
+          "type": "text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/banner-test.jpg",
+            "link_url": "",
+            "image_mobile": "shopify:\/\/shop_images\/Giraffe_2019-07-28.jpg"
+          }
+        },
+        "6c985018-35c1-437e-9969-fc2f3f001a77": {
+          "type": "text",
+          "settings": {
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "19b4b371-3032-4e51-8f45-bba44ad1f609",
+        "6c985018-35c1-437e-9969-fc2f3f001a77"
+      ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/banner-test.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "small",
+        "banner_button": "",
+        "button_url": "",
         "adapt_height_first_image": false,
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
+        "desktop_banner_height": "70vh",
+        "mobile_banner_height": "70vh",
+        "image_overlay_opacity": 0
       }
     }
   },
@@ -21,4 +36,3 @@
     "image_banner"
   ]
 }
-
