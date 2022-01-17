@@ -1,5 +1,6 @@
 {
   "current": {
+    "page_width": "1200",
     "sections": {
       "vue-cart-drawer": {
         "type": "vue-cart-drawer",
