@@ -1,31 +1,6 @@
 {
   "current": {
-    "colors_solid_button_labels": "#FFFFFF",
-    "colors_accent_1": "#121212",
-    "colors_accent_2": "#334FB4",
-    "colors_text": "#121212",
-    "colors_outline_button_labels": "#121212",
-    "colors_background_1": "#FFFFFF",
-    "colors_background_2": "#F3F3F3",
-    "type_header_font": "assistant_n4",
-    "type_body_font": "assistant_n4",
     "sections": {
-      "announcement-bar": {
-        "type": "announcement-bar",
-        "blocks": {
-          "announcement-bar-0": {
-            "type": "announcement",
-            "settings": {
-              "color_scheme": "background-1"
-            }
-          }
-        },
-        "block_order": [
-          "announcement-bar-0"
-        ],
-        "settings": {
-        }
-      },
       "vue-cart-drawer": {
         "type": "vue-cart-drawer",
         "settings": {
@@ -60,27 +35,18 @@
       "footer": {
         "type": "footer",
         "blocks": {
-          "378738a7-7fc1-4f39-b37a-f9e3f8f9225d": {
+          "footer-0": {
             "type": "link_list",
             "settings": {
-              "heading": "Quick links",
-              "menu": "footer"
-            }
-          },
-          "ccc9ae44-a72a-4dc5-87d3-80ec426c7b7b": {
-            "type": "link_list",
-            "settings": {
-              "heading": "Quick links",
-              "menu": "footer"
+              "menu": "menu-principal"
             }
           }
         },
         "block_order": [
-          "378738a7-7fc1-4f39-b37a-f9e3f8f9225d",
-          "ccc9ae44-a72a-4dc5-87d3-80ec426c7b7b"
+          "footer-0"
         ],
         "settings": {
-          "color_scheme": "background-1",
+          "background_color_id": "#FFF",
           "newsletter_enable": true,
           "newsletter_heading": "Subscribe to our emails",
           "show_social": false,
@@ -93,71 +59,5 @@
     "content_for_index": [
 
     ]
-  },
-  "presets": {
-    "Default": {
-      "colors_solid_button_labels": "#FFFFFF",
-      "colors_accent_1": "#121212",
-      "colors_accent_2": "#334FB4",
-      "colors_text": "#121212",
-      "colors_outline_button_labels": "#121212",
-      "colors_background_1": "#FFFFFF",
-      "colors_background_2": "#F3F3F3",
-      "type_header_font": "assistant_n4",
-      "type_body_font": "assistant_n4",
-      "sections": {
-        "announcement-bar": {
-          "type": "announcement-bar",
-          "blocks": {
-            "announcement-bar-0": {
-              "type": "announcement",
-              "settings": {
-                "color_scheme": "background-1"
-              }
-            }
-          },
-          "block_order": [
-            "announcement-bar-0"
-          ],
-          "settings": {
-          }
-        }
-      }
-    },
-    "Craft": {
-      "colors_solid_button_labels": "#EFECEC",
-      "colors_accent_1": "#2A332F",
-      "colors_accent_2": "#476154",
-      "colors_text": "#1C1A1A",
-      "colors_outline_button_labels": "#7B8382",
-      "colors_background_1": "#EFECEC",
-      "colors_background_2": "#C1BCAE",
-      "type_header_font": "americana_n4",
-      "type_body_font": "quattrocento_sans_n4",
-      "sections": {
-        "footer": {
-          "type": "footer",
-          "blocks": {
-            "menu": {
-              "type": "link_list",
-              "settings": {
-              }
-            },
-            "text": {
-              "type": "text",
-              "settings": {
-              }
-            }
-          },
-          "block_order": [
-            "menu",
-            "text"
-          ],
-          "settings": {
-            "color_scheme": "accent-1"
-          }
-        }
-      }
-    }
   }
 }
