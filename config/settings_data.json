@@ -1,6 +1,7 @@
 {
   "current": {
     "page_width": "1200",
+    "spacing_sections": 0,
     "sections": {
       "vue-cart-drawer": {
         "type": "vue-cart-drawer",
@@ -49,7 +50,7 @@
         "settings": {
           "background_color_id": "#FFF",
           "newsletter_enable": true,
-          "newsletter_heading": "Subscribe to our emails",
+          "newsletter_heading": "Inscreva-se e receba CUPOM 5% DESCONTO",
           "show_social": false,
           "enable_country_selector": true,
           "enable_language_selector": true,
