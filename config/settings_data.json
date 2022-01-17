@@ -73,20 +73,11 @@
               "heading": "Quick links",
               "menu": "footer"
             }
-          },
-          "5c013374-46b3-41cb-b5ba-7a2934ca8c5e": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/greenhome-logo.png",
-              "image_width": 100,
-              "alignment": "center"
-            }
           }
         },
         "block_order": [
           "378738a7-7fc1-4f39-b37a-f9e3f8f9225d",
-          "ccc9ae44-a72a-4dc5-87d3-80ec426c7b7b",
-          "5c013374-46b3-41cb-b5ba-7a2934ca8c5e"
+          "ccc9ae44-a72a-4dc5-87d3-80ec426c7b7b"
         ],
         "settings": {
           "color_scheme": "background-1",
