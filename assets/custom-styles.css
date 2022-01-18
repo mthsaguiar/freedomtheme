@@ -127,6 +127,30 @@
     margin: 0;
     color: #3c3c3c;
 }
+.field .newsletter-form__button{
+    background-color: #6b70ff;
+    padding: 0 0rem;
+    width: 7rem;
+    border-radius: 1rem;
+}
+.field .newsletter-form__button .icon{
+    width: 2rem;
+}
+.field .newsletter-form__button .icon path{
+    fill: #FFF
+}
+#NewsletterForm--footer{
+    border: 0.1rem solid #6470ff;
+    border-radius: 1rem;
+    color: #6470ff;
+}
+#NewsletterForm--footer::placeholder{
+    color: #6470ff;
+}
+.footer-block__heading{
+    color: #333333;
+    font-weight: bold;
+}
 @media screen and (min-width: 750px) {
     .footer-menu__full-width{
         display: flex;
