@@ -20,6 +20,8 @@
     opacity: 0.5;
     visibility: visible;
 }
+
+/* HEADER[START] */
 .search__container{
     grid-area: search
 }
@@ -44,3 +46,96 @@
         grid-template-columns: 1fr 1fr 1fr;
     }
 }
+
+/*HEADER[END]*/
+
+/* FOOTER [START] */
+.product-announce__item-img{
+    position: relative;
+    padding-bottom: 164px;
+    width: 136px;
+    border-radius: 2rem;
+    overflow: hidden;
+    margin: 0;
+}
+.product-announce__item-img h4{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    background-color: rgba(187, 187, 187, 0.5);
+    text-align: center;
+    margin: 0;
+    padding: 0.2rem 0;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: rgb(65, 65, 65);
+}
+.product-announce__item-img img{
+    position: absolute;
+    height: 100%;
+    width: auto;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.svg-logo{
+    width: 148px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.svg-logo svg{
+    width: 100%;
+    height: auto;
+}
+.social-media__container ul li a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social-media__container ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 0 0 0;
+    margin: 0;
+}
+.social-media__container ul svg{
+    width: 48px;
+    height: 48px;
+    margin: 0 1rem;
+}
+@media screen and (min-width: 750px) {
+    .footer-menu__full-width{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 3rem;
+    }
+    .footer-menu__full-width a{
+        color: #404040;
+        font-size: 1.8rem;
+        font-weight: bold;
+        padding: 0 1rem;
+        margin: 0 1rem;
+        text-decoration: none;
+        background-color: rgba(187, 187, 187, 0.5);
+    }
+    .footer-above-menu__container{
+        padding-top: 3rem;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .product-announce__item{
+        padding-right: 3rem;
+    }
+    .product-announce{
+        display: flex;
+    }
+}
+
+/* FOOTER [END] */

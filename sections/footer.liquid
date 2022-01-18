@@ -69,6 +69,45 @@
           {% endfor %}
         {% endfor %}
       </div>
+      <div class="social-media__container">   
+        <ul>
+          {% for block in section.blocks %}
+            {% if block.type == "social_media" %}
+              
+                <li>
+                  <a href="{{block.settings.social_url_id}}">
+                    {{block.settings.social_icon_id}}
+                  </a>
+                </li>
+              
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="footer-above-menu__container">
+        <div class="product-announce">
+          {% for block in section.blocks %}
+            {% if block.type == 'product' %}
+              <div class="product-announce__item">
+                <div class="product-announce__item-img">
+                  <img srcset="{{ block.settings.product_id.featured_image | img_url: image_size }} 1x, {{ block.settings.product_id.featured_image | img_url: image_size, scale: 2 }} 2x"
+                        src="{{ block.settings.product_id.featured_image | img_url: image_size }}"
+                        loading="lazy"
+                        class="header__heading-logo"
+                        width="{{ block.settings.product_id.featured_image.width }}"
+                        height="{{ block.settings.product_id.featured_image.height }}"
+                        alt="{{ block.settings.product_id.featured_image.alt | default: shop.name | escape }}"
+                  >
+                  <h4>{{block.settings.product_id.title}}</h4>
+          </div>
+              </div>
+            {% endif %}
+          {% endfor %}
+        </div>
+        <div class="svg-logo">
+          {{ section.settings.logo_svg_id }}
+        </div>
+      </div>
     </div>
   {%- endif -%}
 
@@ -261,6 +300,33 @@
           "info": "t:sections.footer.blocks.link_list.settings.menu.info"
         }
       ]
+    },
+    {
+     "type": "social_media",
+      "name": "Social Media",
+      "settings": [
+        {
+          "type": "url",
+          "id": "social_url_id",
+          "label": "label"
+        },
+        {
+          "type": "html",
+          "id": "social_icon_id",
+          "label": "Social Media"
+        }
+      ]
+    },
+    {
+      "type": "product",
+      "name": "Product announce",
+      "settings": [
+       {
+         "type": "product",
+         "id": "product_id",
+         "label": "Product announce"
+       }
+      ]
     }
   ],
   "settings": [
@@ -288,47 +354,9 @@
       "label": "t:sections.footer.settings.newsletter_heading.label"
     },
     {
-      "type": "header",
-      "content": "t:sections.footer.settings.header__2.content",
-      "info": "t:sections.footer.settings.header__2.info"
-    },
-    {
-      "type": "checkbox",
-      "id": "show_social",
-      "default": false,
-      "label": "t:sections.footer.settings.show_social.label"
-    },
-    {
-      "type": "header",
-      "content": "t:sections.footer.settings.header__3.content",
-      "info": "t:sections.footer.settings.header__4.info"
-    },
-    {
-      "type": "checkbox",
-      "id": "enable_country_selector",
-      "default": true,
-      "label": "t:sections.footer.settings.enable_country_selector.label"
-    },
-    {
-      "type": "header",
-      "content": "t:sections.footer.settings.header__5.content",
-      "info": "t:sections.footer.settings.header__6.info"
-    },
-    {
-      "type": "checkbox",
-      "id": "enable_language_selector",
-      "default": true,
-      "label": "t:sections.footer.settings.enable_language_selector.label"
-    },
-    {
-      "type": "header",
-      "content": "t:sections.footer.settings.header__7.content"
-    },
-    {
-      "type": "checkbox",
-      "id": "payment_enable",
-      "default": true,
-      "label": "t:sections.footer.settings.payment_enable.label"
+      "type": "html",
+      "id": "logo_svg_id",
+      "label": "Logo SVG"
     }
   ],
   "default": {
