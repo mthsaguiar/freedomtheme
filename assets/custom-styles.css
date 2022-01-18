@@ -109,6 +109,24 @@
     height: 48px;
     margin: 0 1rem;
 }
+.payment-badges__wrapper ul{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.payment-badges__wrapper ul li:not(:last-child){
+    margin-right: 1rem;
+}
+.payment-badges__wrapper ul svg{
+    width: 48px;
+    height: 48px;
+}
+.copyright__wrappe h4{
+    font-size: 1.5rem;
+    margin: 0;
+    color: #3c3c3c;
+}
 @media screen and (min-width: 750px) {
     .footer-menu__full-width{
         display: flex;
@@ -135,6 +153,11 @@
     }
     .product-announce{
         display: flex;
+    }
+    .footer__column.footer__column--info{
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
     }
 }
 
