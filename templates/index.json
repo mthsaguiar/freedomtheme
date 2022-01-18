@@ -24,6 +24,64 @@
     },
     "1642540023a0580152": {
       "type": "featured-reviews",
+      "blocks": {
+        "7c91a5bf-4cde-43ae-8f04-23a432300b92": {
+          "type": "review",
+          "settings": {
+            "author": "",
+            "content": "",
+            "star_range": 5
+          }
+        },
+        "a7093195-0649-41b0-a8df-695070ed1e5d": {
+          "type": "review",
+          "settings": {
+            "author": "",
+            "content": "",
+            "star_range": 5
+          }
+        },
+        "4b5eadb2-99af-402c-b8ef-4cb58456eb23": {
+          "type": "review",
+          "settings": {
+            "author": "",
+            "content": "",
+            "star_range": 5
+          }
+        },
+        "e0450d16-c9be-42b5-8ea6-5cb3ea642d1b": {
+          "type": "review",
+          "settings": {
+            "author": "",
+            "content": "",
+            "star_range": 5
+          }
+        },
+        "3a81f643-947b-47c4-bbf3-75074a3e8bca": {
+          "type": "review",
+          "settings": {
+            "author": "",
+            "content": "",
+            "star_range": 5
+          }
+        },
+        "3bfa8c64-23bc-4ae8-943a-20e654abbd7d": {
+          "type": "review",
+          "settings": {
+            "author": "",
+            "content": "",
+            "star_range": 5
+          }
+        }
+      },
+      "block_order": [
+        "7c91a5bf-4cde-43ae-8f04-23a432300b92",
+        "a7093195-0649-41b0-a8df-695070ed1e5d",
+        "4b5eadb2-99af-402c-b8ef-4cb58456eb23",
+        "e0450d16-c9be-42b5-8ea6-5cb3ea642d1b",
+        "3a81f643-947b-47c4-bbf3-75074a3e8bca",
+        "3bfa8c64-23bc-4ae8-943a-20e654abbd7d"
+      ],
       "settings": {
         "background_color": "",
         "title_color": "",
