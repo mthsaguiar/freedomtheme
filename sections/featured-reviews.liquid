@@ -1,0 +1,121 @@
+
+<!-- section/featured-reviews -->
+<link rel="stylesheet" href="{{ 'featured-reviews.css' | asset_url }}" media="print" onload="this.media='all'">
+<noscript>{{ 'featured-reviews.css' | asset_url | stylesheet_tag }}</noscript>
+<script src="{{ 'featured-reviews.js' | asset_url }}" defer="defer"></script>
+{%- style -%}
+.featured-reviews__background{
+  background-color: {{section.settings.background_color}};
+}
+.featured-reviews__title{
+  color: {{section.settings.title_color}};
+}
+.featured-reviews__subtitle{
+  color: {{section.settings.subtitle_color}}
+}
+{%- endstyle -%}
+{%- for block in section.blocks -%}
+  {%- assign counter = counter | plus: block.settings.star_range -%}
+  {% if forloop.last == true %}
+    {% assign final_count = counter | divided_by: forloop.length %}
+  {% endif %}
+{%- endfor -%}
+
+<div class="featured-reviews__background">
+	<h1 class="featured-reviews__title">{{ section.settings.title }}</h1>
+	<h2 class="featured-reviews__subtitle">{{ section.settings.subtitle }}</h2>
+  <div class="featured-reviews__total-count">
+    <ul>
+      {% for i in (1..5) limit: final_count %}
+          <li>
+            {%- render 'star-icon' -%}
+          </li>
+      {% endfor %}
+    </ul>
+  </div>
+	<div class="featured-reviews__card-wrapper">
+	{%- for block in section.blocks -%}
+		<div class="featured-reviews__card {% if forloop.index > 4 %} no-mobile {% endif %}">
+			<div class="featured-reviews__content">
+				<p class="featured-reviews__instagram">{{ block.settings.author }}</p>
+				<p class="featured-reviews__review">{{ block.settings.content }}</p>
+        <ul>
+          {% for i in (1..5) limit: block.settings.star_range %}
+            <li>
+              {%- render 'star-icon' -%}
+            </li>
+          {% endfor %}
+        </ul>
+			</div>
+		</div>
+	{%- endfor -%}
+	</div>
+</div>
+
+{% schema %}
+{
+  "name": "Featured Reviews",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background Color"
+    },
+    {
+      "type": "color",
+      "id": "title_color",
+      "label": "Title Color"
+    },
+    {
+      "type": "color",
+      "id": "subtitle_color",
+      "label": "Subtitle Color"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "default": "Reviews",
+      "label": "Section Title"
+    },
+	{
+		"type": "text",
+		"id": "subtitle",
+		"default": "Sub",
+		"label": "Section Subtitle"
+	}
+  ],
+  "blocks": [
+      {
+        "name": "Review",
+        "type": "review",
+        "settings": [
+          {
+            "type": "text",
+            "id": "author",
+            "label": "Author"
+          },
+          {
+            "type": "textarea",
+            "id": "content",
+            "label": "Review Content"
+          },
+          {
+            "type": "range",
+            "id": "star_range",
+            "label": "Stars",
+            "min": 1,
+            "max": 5,
+            "step": 1,
+            "default": 5
+          }
+        ]
+      }
+  ],
+  "presets": [
+    {
+      "name": "Featured Reviews"
+    }
+  ]
+}
+{% endschema %}
