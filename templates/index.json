@@ -19,13 +19,22 @@
         "banner_button": "",
         "button_url": "",
         "adapt_height_first_image": false,
-        "desktop_banner_height": "70vh",
-        "mobile_banner_height": "50vh",
         "image_overlay_opacity": 0
+      }
+    },
+    "1642540023a0580152": {
+      "type": "featured-reviews",
+      "settings": {
+        "background_color": "",
+        "title_color": "",
+        "subtitle_color": "",
+        "title": "Reviews",
+        "subtitle": "Sub"
       }
     }
   },
   "order": [
-    "image_banner"
+    "image_banner",
+    "1642540023a0580152"
   ]
 }
