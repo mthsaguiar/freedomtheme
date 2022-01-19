@@ -34,8 +34,33 @@
     width: -webkit-fill-available;
     justify-content: center;
 }
+.search__input.field__input{
+    border: 0.1rem solid #6470ff;
+    border-radius: 1rem;
+    color: #6470ff;
+}
+.search__container .field__button {
+    background-color: #6b70ff;
+    padding: 0 0rem;
+    width: 7rem;
+    border-radius: 1rem;
+}
+.search__container .field__button svg{
+    width: 2rem;
+    height: 2rem;
+    color: #FFF
+}
+.predictive-search.predictive-search--header{
+    width: max-content;
+    top: 10rem;
+    left: 3rem;
+}
 
 @media screen and (min-width: 750px) {
+    .predictive-search.predictive-search--header{
+        width: max-content;
+        top: 5rem;
+    }
     .header__inline-menu{
         text-align: center;
     }
