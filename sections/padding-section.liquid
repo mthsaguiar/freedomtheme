@@ -1,0 +1,57 @@
+
+{%-style-%}
+#shopify-section-{{section.id}} .padding__section{
+    width: 100%;
+    padding-bottom: {{ section.settings.padding_step }}px;
+    background-color: {{section.settings.background_id}};
+}
+@media screen and (max-width: 990px){
+  #shopify-section-{{section.id}} .padding__section{
+    padding-bottom: {{ section.settings.padding_step_mobile }}px;
+  }
+}
+{%-endstyle-%}
+
+<section id="section-{{section.id}}" class="padding__section">
+
+</section>
+
+{% schema %}
+{
+"name": "Padding Section",
+"tag": "section",
+"settings": [
+{
+  "type": "range",
+  "id": "padding_step",
+  "min": 0,
+  "max": 300,
+  "step": 10,
+  "unit": "px",
+  "default": 0,
+  "label":"Padding On Top Section"
+},
+{
+  "type": "range",
+  "id": "padding_step_mobile",
+  "min": 0,
+  "max": 300,
+  "step": 10,
+  "unit": "px",
+  "default": 0,
+  "label":"Padding On Top Section"
+},
+{
+  "type": "color",
+  "id": "background_id",
+  "label": "Background",
+  "default": "#FFF"
+}
+],
+"presets": [
+{
+  "name": "Padding Section"
+}
+]
+}
+{% endschema %}
