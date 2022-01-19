@@ -22,6 +22,14 @@
         "image_overlay_opacity": 0
       }
     },
+    "1642615847cfd5785a": {
+      "type": "padding-section",
+      "settings": {
+        "padding_step": 30,
+        "padding_step_mobile": 30,
+        "background_id": "#FFF"
+      }
+    },
     "16425520962d174181": {
       "type": "uvp-section",
       "blocks": {
@@ -142,6 +150,7 @@
   },
   "order": [
     "image_banner",
+    "1642615847cfd5785a",
     "16425520962d174181",
     "1642540023a0580152"
   ]
