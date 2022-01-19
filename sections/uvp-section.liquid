@@ -1,0 +1,41 @@
+<link rel="stylesheet" href="{{ 'uvp-section.css' | asset_url }}" media="print" onload="this.media='all'">
+
+
+<div class="uvp-section page-width">
+    <ul>
+        {% for block in section.blocks %}
+            <li>
+                {{block.settings.uvp_icon}}
+                <h4>{{block.settings.uvp_text}}</h4>
+            </li>  
+        {% endfor %}
+    </ul>
+</div>
+
+
+{% schema %}
+{
+   "name": "UVP Section",
+   "settings": [
+        
+    ],
+    "blocks": [
+    {
+      "type": "uvp_item",
+      "name": "UVP Item",
+      "settings": [
+        {
+            "type": "html",
+            "id": "uvp_icon",
+            "label": "UVP Icon(svg)"
+        },
+        {
+            "type": "text",
+            "id": "uvp_text",
+            "label": "UVP Text"
+        },
+      ]
+    }
+  ],
+}
+{% endschema %}
