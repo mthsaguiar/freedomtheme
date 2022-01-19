@@ -1,0 +1,29 @@
+
+
+.uvp-section ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+.uvp-section ul li svg{
+    width: 64px;
+    height: 64px;
+}
+.uvp-section ul li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.uvp-section ul li h4{
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin: 0;
+    padding-top: 2rem;
+}
+@media screen and (min-width: 750px) {
+    .uvp-section ul{
+        justify-content: space-evenly;
+    }
+}
