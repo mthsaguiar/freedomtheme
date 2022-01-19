@@ -5,6 +5,9 @@
     padding: 0;
     margin: 0;
     display: flex;
+    padding: 2rem;
+    border-radius: 2rem;
+    background-color: #c9e1ff;
 }
 .uvp-section ul li svg{
     width: 64px;
@@ -15,15 +18,20 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    padding-top: 0.5rem;
 }
 .uvp-section ul li h4{
     font-size: 1.8rem;
     font-weight: bold;
     margin: 0;
     padding-top: 2rem;
+    color: #3c3c3c;
 }
 @media screen and (min-width: 750px) {
     .uvp-section ul{
         justify-content: space-evenly;
+    }
+    .uvp-section ul li{
+        padding-top: 0;
     }
 }
