@@ -22,6 +22,11 @@
         "image_overlay_opacity": 0
       }
     },
+    "16425520962d174181": {
+      "type": "uvp-section",
+      "settings": {
+      }
+    },
     "1642540023a0580152": {
       "type": "featured-reviews",
       "blocks": {
@@ -93,6 +98,7 @@
   },
   "order": [
     "image_banner",
+    "16425520962d174181",
     "1642540023a0580152"
   ]
 }
