@@ -79,6 +79,14 @@
       "settings": {
       }
     },
+    "1642615891f037de02": {
+      "type": "padding-section",
+      "settings": {
+        "padding_step": 30,
+        "padding_step_mobile": 30,
+        "background_id": "#FFF"
+      }
+    },
     "1642540023a0580152": {
       "type": "featured-reviews",
       "blocks": {
@@ -152,6 +160,7 @@
     "image_banner",
     "1642615847cfd5785a",
     "16425520962d174181",
+    "1642615891f037de02",
     "1642540023a0580152"
   ]
 }
