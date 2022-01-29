@@ -55,7 +55,12 @@
     top: 10rem;
     left: 3rem;
 }
-
+.header__icon .icon.custom-cart{
+    fill:#3c3c3c;
+    height: 3rem;
+    width: 3rem;
+    transform: rotateY(180deg);
+}
 @media screen and (min-width: 750px) {
     .predictive-search.predictive-search--header{
         width: max-content;

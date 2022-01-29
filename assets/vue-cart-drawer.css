@@ -29,14 +29,14 @@ input[type="number"] {
 
 #cart-drawer_icon span {
     position: absolute;
-    top: -2px;
-    right: -5px;
+    top: 0px;
+    right: -8px;
     height: 16px;
-    width: 16px;
+    width: 17px;
     font-size: 1.1rem;
     font-weight: 900;
     border-radius: 50%;
-    background-color: #9450C0;
+    background-color: #3c3c3c;
     color: #FFFBF5;
     line-height: 0px;
 }
