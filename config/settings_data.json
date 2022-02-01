@@ -3,10 +3,11 @@
     "colors_background_1": "#FFFFFF",
     "page_width": "1200",
     "spacing_sections": 0,
-    "shipping_bar_content": "Frete GRÁTIS para todo BRASIL!",
-    "free_shipping_value": "",
+    "shipping_bar_content": "Frete GRÁTIS acima de",
+    "free_shipping_value": "R$ 100,00",
     "free_shipping_message": "Parabéns! Você ganhou frete grátis!",
     "missing_value_message_before": "Faltam",
+    "missing_value_message_after": "para FRETE GRÁTIS!",
     "sections": {
       "vue-cart-drawer": {
         "type": "vue-cart-drawer",
