@@ -4,7 +4,14 @@
   --shipping-text-color: {{ section.settings.shipping_text-color }};
 }
 {% endstyle %}
-
+<style>
+    #vue-shipping-section{
+        background-color: var(--shipping-background-color) ;
+    }
+    #vue-shipping-section .shipping--bar__message{
+        color: var(--shipping-text-color);
+    }
+</style>
 {{ 'vue-shipping-section.css' | asset_url | stylesheet_tag }}
 
 
