@@ -396,7 +396,7 @@
 
 /* Account/Order */
 :is(.account, .order) {
-  margin: 6rem auto 9rem;
+  margin: 4rem auto 9rem;
   max-width: var(--page-width);
   padding: 0 2rem;
 }
@@ -749,10 +749,18 @@ li[data-address] > h2 {
 
 
 /* CSS EDITADO JAN 22 [START] */
+.customer.order,
 .customer.account{
-  background: #FFF;
+  background: rgba(221, 221, 221, 0.5);
   padding-bottom: 4rem;
+  padding-top: 1rem;
+  max-width: 1000px;
 }
+
+.customer.account h2{
+  font-weight: bold;
+}
+
 .customer.account .order-history th{
   text-align: center;
   padding: 2rem 0;
@@ -760,42 +768,106 @@ li[data-address] > h2 {
   border-top: 1px solid rgba(0, 0, 0, 0.5);
   border-bottom: 1px solid rgba(0, 0, 0, 0.5);
 }
-.customer.account .order-history td{
-  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
-  border-right: 1px solid rgba(0, 0, 0, 0.5);
-  text-align: center;
-  padding: 2rem 0;
-}
+
 .account table td:first-of-type a{
   padding: 0;
 }
-.customer.account .order-history td:first-child,
-.customer.account .order-history th:first-child{
-  border-left: 1px solid rgba(0, 0, 0, 0.5);
 
-}
 .see__addresses{
   font-size: 1.6rem;
   font-weight: bold;
 }
-.order__number{
+.account table td:first-of-type a.order__number{
   font-size: 1.8rem;
   box-shadow: none;
   font-weight: bold;
+  color: rgb(32, 29, 216);
+}
+.customer tbody td {
+padding-top: 1.25rem;
+padding-bottom: 1.25rem;
+font-weight: bold;
+}
+.customer.account>div:first-child{
+  display: flex;
+  justify-content: space-between;
+}
+.customer.account>div>a{
+  color: #770000;
+}
+#AddAddress button:last-child{
+  background-color: #fb0c06;
+  color: #FFF;
+  font-weight: bold;
 }
 @media screen and (min-width: 750px) {
-  .customer.account>div{
-    display: flex;
-    justify-content: space-between;
+  .customer.order tfoot tr{
+    border-right: 1px solid rgba(0, 0, 0, 0.5);
+    border-left: 1px solid rgba(0, 0, 0, 0.5);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
   }
+  .customer.order thead th {
+    text-align: center;
+    padding: 2rem 0;
+    border-right: 1px solid rgba(0, 0, 0, 0.5);
+    border-top: 1px solid rgba(0, 0, 0, 0.5);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  }
+  .customer.order tbody td:first-child,
+  .customer.order thead th:first-child{
+    border-left: 1px solid rgba(0, 0, 0, 0.5);
+  }
+
+  .order tbody tr:first-of-type td:first-of-type>div{
+    align-items: center;
+    justify-content: center;
+  }
+  .customer.order thead th,
+  .customer.order tbody td{
+    padding: 2rem 0;
+    text-align: center;
+  }
+  .customer.order tbody td{
+    border-right: 1px solid rgba(0, 0, 0, 0.5);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  }
+  #RowSubtotal{
+  border-right: 1px solid rgba(0, 0, 0, 0.5);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  }
+  #RowSubtotal{
+    border-left: 1px solid rgba(0, 0, 0, 0.5);
+  }
+  #RowSubtotal{
+    padding: 2rem;
+  }
+  .customer.order .row__subtotal{
+    padding: 2rem 0;
+    text-align: center;
+    border-right: 1px solid rgba(0, 0, 0, 0.5);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  }
+  .customer.account{
+    padding-top: 0;
+  }
+  .customer.account .order-history td:first-child,
+  .customer.account .order-history th:first-child{
+    border-left: 1px solid rgba(0, 0, 0, 0.5);
+
+  }
+  .customer.account .order-history td{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    border-right: 1px solid rgba(0, 0, 0, 0.5);
+    text-align: center;
+    padding: 2rem 0;
+  }
+
   .customer.account>div:last-child{
     flex-direction: column;
   }
   .customer.account>div:last-child>div:last-child{
     margin-top: 3rem;
   }
-  .customer.account>div>a{
-    color: #770000;
-  }
+
 }
 /* CSS EDITADO JAN 22 [END] */

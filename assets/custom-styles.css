@@ -54,8 +54,11 @@
     top: 10rem;
     left: 3rem;
 }
+.header__icons svg{
+    fill:#030d4f;
+}
 .header__icon .icon.custom-cart{
-    fill:#3c3c3c;
+    fill:#030d4f;
     height: 3rem;
     width: 3rem;
     transform: rotateY(180deg);
@@ -271,15 +274,16 @@
     border: .5px solid rgb(202, 202, 202);
     font-family: "Montserrat", sans-serif;
 }
-
+.customer.addresses button,
 #customer_login button,
 #create_customer button,
 .customer.login button,
 .shopify-challenge__container input {
     border-radius: 12px;
-    background-color: #0071e3;
+    background-color: #030d4f;
     border: none;
     box-shadow: none;
+    font-weight: bold;
 }
 
 
