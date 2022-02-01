@@ -293,7 +293,7 @@
     "account": {
       "title": "Conta",
       "details": "Detalhes da conta",
-      "view_addresses": "Ver endereços",
+      "view_addresses": "Endereços",
       "return": "Regressar aos detalhes da conta"
     },
     "account_fallback": "Conta",
