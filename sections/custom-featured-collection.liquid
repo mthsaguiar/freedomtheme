@@ -1,0 +1,25 @@
+{{ 'custom-featured-collection.css' | asset_url | stylesheet_tag }}
+
+<div class="custom-featured__collection page-width">
+    <ul class="custom-featured-collection__items">
+        {% for product in section.settings.collection_id.products %}
+            <li class="custom-featured-collection__item">
+                {%- render 'custom-featured-card' product_card_product: product -%}
+            </li>
+        {% endfor %}
+    </ul>
+</div>
+
+{% schema %}
+{
+    "name": "Home Featured Collection",
+    "settings": [
+       {
+           "type": "collection",
+           "id": "collection_id",
+           "label": "Collection"
+       }
+    ]
+
+}
+{% endschema %}

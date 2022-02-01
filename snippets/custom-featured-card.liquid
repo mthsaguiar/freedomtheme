@@ -1,0 +1,72 @@
+<!-- Snippet/custom-product-card -->
+
+<script src="{{ 'custom-product-card.js' | asset_url }}" defer="defer"></script>
+
+<div class="product-card__wrapper">
+    <a href="/products/{{product_card_product.handle}}" >
+        <div class="product-card__img-wrapper">
+            <img
+                srcset="{%- if product_card_product.featured_media.width >= 165 -%}{{ product_card_product.featured_media | img_url: '165x' }} 165w,{%- endif -%}
+                {%- if product_card_product.featured_media.width >= 360 -%}{{ product_card_product.featured_media | img_url: '360x' }} 360w,{%- endif -%}
+                {%- if product_card_product.featured_media.width >= 533 -%}{{ product_card_product.featured_media | img_url: '533x' }} 533w,{%- endif -%}
+                {%- if product_card_product.featured_media.width >= 720 -%}{{ product_card_product.featured_media | img_url: '720x' }} 720w,{%- endif -%}
+                {%- if product_card_product.featured_media.width >= 940 -%}{{ product_card_product.featured_media | img_url: '940x' }} 940w,{%- endif -%}
+                {%- if product_card_product.featured_media.width >= 1066 -%}{{ product_card_product.featured_media | img_url: '1066x' }} 1066w,{%- endif -%}
+                {{ product_card_product.featured_media | img_url: 'master' }} {{ product_card_product.featured_media.width }}w"
+                src="{{ product_card_product.featured_media | img_url: '533x' }}"
+                alt="{{ product_card_product.featured_media.alt | escape }}"
+                loading="lazy"
+                class="motion-reduce"
+                width="{{ product_card_product.featured_media.width }}"
+                height="{{ product_card_product.featured_media.height }}"
+            >
+        </div>
+      <b class="hr anim" style="padding:0;"> </b>
+        <div class="product-card__info-wrapper">
+
+                <h4 class="product-card__title">
+                    {{ product_card_product.title }}
+                </h4>
+                <div class="product-card__price-wrapper">
+                    <div class="product-card__price">
+                        <span class="price-item price-item--regular" style="display:none;">
+                        {{ product_card_product.price | money }}
+                        </span>
+                        <span class="price-item price-item__discount">
+                        {{ product_card_product.price | money}}
+                        </span>
+                    </div>
+                    <div class="product-card__separator display-flex align-center">ou</div>
+                    <div class="product-card__sub-price">
+                        <div>{{ product_card_product.price | times: 0.9 | money}}</div>
+                        <div class="display-flex column align-center">
+                            <svg width="16" height="16" viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M0.078125 3.33333L2.27813 0H8.87813L11.0781 3.33333V3.54167V10H0.078125V3.33333ZM10.5391 3.33333L8.61414 0.416667H2.54211L0.617114 3.33333H10.5391ZM0.518125 3.75V9.58333H10.6381V3.75H0.518125ZM4.47698 5.83333C3.9916 5.83333 3.59812 6.20322 3.59812 6.66667C3.59812 7.1269 3.9923 7.5 4.47698 7.5H6.67927C7.16465 7.5 7.55813 7.13011 7.55813 6.66667C7.55813 6.20643 7.16395 5.83333 6.67927 5.83333H4.47698ZM4.47941 6.25C4.2357 6.25 4.03813 6.43494 4.03813 6.66667C4.03813 6.89679 4.23079 7.08333 4.47941 7.08333H6.67684C6.92055 7.08333 7.11812 6.89839 7.11812 6.66667C7.11812 6.43655 6.92546 6.25 6.67684 6.25H4.47941ZM3.15812 0.833333L2.89414 1.25H8.26211L7.99813 0.833333H3.15812ZM2.5861 1.66667L2.32211 2.08333H8.83414L8.57015 1.66667H2.5861ZM2.05813 2.5L1.79414 2.91667H9.36211L9.09812 2.5H2.05813Z" fill="#19433A"/>
+                            </svg>
+                            <span>Para Assinantes</span>
+                        </div>
+                    </div>
+                </div>
+                <a href="/products/{{product_card_product.handle}}" class="product-card__link">COMPRAR AGORA</a>
+                <div class="product-card__rating">
+                    <ul>
+                        <li>
+                            {%- render 'star-icon' -%}
+                        </li>
+                        <li>
+                            {%- render 'star-icon' -%}
+                        </li>
+                        <li>
+                            {%- render 'star-icon' -%}
+                        </li>
+                        <li>
+                            {%- render 'star-icon' -%}
+                        </li>
+                        <li>
+                            {%- render 'star-icon' -%}
+                        </li>
+                    </ul>
+                </div>
+        </div>
+    </a>
+</div>
