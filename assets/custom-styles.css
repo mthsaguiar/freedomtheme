@@ -63,6 +63,10 @@
     width: 3rem;
     transform: rotateY(180deg);
 }
+.list-menu__item span{
+    text-transform: uppercase;
+    font-weight: bold;
+}
 @media screen and (min-width: 750px) {
     .predictive-search.predictive-search--header{
         width: max-content;
