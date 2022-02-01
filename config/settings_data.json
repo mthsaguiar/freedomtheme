@@ -2,6 +2,10 @@
   "current": {
     "page_width": "1200",
     "spacing_sections": 0,
+    "shipping_bar_content": "Frete GRÁTIS para todo BRASIL!",
+    "free_shipping_value": "",
+    "free_shipping_message": "Parabéns! Você ganhou frete grátis!",
+    "missing_value_message_before": "Faltam",
     "sections": {
       "vue-cart-drawer": {
         "type": "vue-cart-drawer",
