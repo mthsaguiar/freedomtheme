@@ -347,7 +347,7 @@
       "date_html": "Efetuado a {{ date }}",
       "cancelled_html": "Pedido cancelado em {{ date }}",
       "cancelled_reason": "Motivo: {{ reason }}",
-      "billing_address": "Endereço de faturação",
+      "billing_address": "Endereço de faturamento",
       "payment_status": "Estado do pagamento",
       "shipping_address": "Endereço de envio",
       "fulfillment_status": "Estado de processamento",
