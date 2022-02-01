@@ -22,6 +22,14 @@
         "image_overlay_opacity": 0
       }
     },
+    "16437446554d913306": {
+      "type": "padding-section",
+      "settings": {
+        "padding_step": 30,
+        "padding_step_mobile": 30,
+        "background_id": "#FFF"
+      }
+    },
     "16437441898dbe24d6": {
       "type": "custom-featured-collection",
       "settings": {
@@ -164,6 +172,7 @@
   },
   "order": [
     "image_banner",
+    "16437446554d913306",
     "16437441898dbe24d6",
     "1642615847cfd5785a",
     "16425520962d174181",
