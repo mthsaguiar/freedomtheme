@@ -327,6 +327,7 @@
   display: block;
   margin: 0 auto;
   width: fit-content;
+  font-weight: bold;
 }
 
 .login a[href='#recover'] {
@@ -745,3 +746,15 @@ li[data-address] > h2 {
 .addresses form > div:nth-of-type(7) + div[id] {
   margin-top: 1.5rem;
 }
+
+
+/* CSS EDITADO JAN 22 [START] */
+
+
+@media screen and (min-width: 750px) {
+  .customer.account>div{
+    display: flex;
+    justify-content: space-between;
+  }
+}
+/* CSS EDITADO JAN 22 [END] */

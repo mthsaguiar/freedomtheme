@@ -251,3 +251,37 @@
 }
 
 /* FOOTER [END] */
+
+/* LOGIN (START) */
+
+#login,
+.customer.register h1,
+.customer.login h1 {
+    font-weight: bold;
+    color: #606060;
+}
+
+#CustomerEmail,
+#CustomerPassword,
+#RegisterForm-LastName,
+#RegisterForm-email,
+#RegisterForm-password,
+#RegisterForm-FirstName,
+#RecoverEmail {
+    border-radius: 1rem;
+    border: .5px solid rgb(202, 202, 202);
+    font-family: "Montserrat", sans-serif;
+}
+
+#customer_login button,
+#create_customer button,
+.customer.login button,
+.shopify-challenge__container input {
+    border-radius: 12px;
+    background-color: #0071e3;
+    border: none;
+    box-shadow: none;
+}
+
+
+/* LOGIN (END) */
