@@ -343,9 +343,9 @@
       "submit": "Submeter"
     },
     "order": {
-      "title": "Encomenda {{ name }}",
+      "title": "Pedido {{ name }}",
       "date_html": "Efetuado a {{ date }}",
-      "cancelled_html": "Encomenda cancelada em {{ date }}",
+      "cancelled_html": "Pedido cancelado em {{ date }}",
       "cancelled_reason": "Motivo: {{ reason }}",
       "billing_address": "Endereço de faturação",
       "payment_status": "Estado do pagamento",
@@ -367,14 +367,14 @@
       "subtotal": "Subtotal"
     },
     "orders": {
-      "title": "Histórico de encomendas",
-      "order_number": "Encomenda",
-      "order_number_link": "Número da encomenda {{ number }}",
+      "title": "Histórico de pedidos",
+      "order_number": "Pedido",
+      "order_number_link": "Número do pedido {{ number }}",
       "date": "Data",
       "payment_status": "Estado do pagamento",
       "fulfillment_status": "Estado de processamento",
       "total": "Total",
-      "none": "Ainda não efetuou nenhuma encomenda."
+      "none": "Ainda não efetuou nenhum pedido."
     },
     "recover_password": {
       "title": "Repor palavra-passe",
