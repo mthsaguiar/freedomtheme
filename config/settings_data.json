@@ -15,7 +15,7 @@
         "type": "vue-shipping-section",
         "settings": {
           "shipping_background": "#ffc52c",
-          "shipping_text-color": "#ceecef"
+          "shipping_text-color": "#030d4f"
         }
       },
       "header": {
