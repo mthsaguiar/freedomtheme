@@ -749,12 +749,53 @@ li[data-address] > h2 {
 
 
 /* CSS EDITADO JAN 22 [START] */
+.customer.account{
+  background: #FFF;
+  padding-bottom: 4rem;
+}
+.customer.account .order-history th{
+  text-align: center;
+  padding: 2rem 0;
+  border-right: 1px solid rgba(0, 0, 0, 0.5);
+  border-top: 1px solid rgba(0, 0, 0, 0.5);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+.customer.account .order-history td{
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  border-right: 1px solid rgba(0, 0, 0, 0.5);
+  text-align: center;
+  padding: 2rem 0;
+}
+.account table td:first-of-type a{
+  padding: 0;
+}
+.customer.account .order-history td:first-child,
+.customer.account .order-history th:first-child{
+  border-left: 1px solid rgba(0, 0, 0, 0.5);
 
-
+}
+.see__addresses{
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+.order__number{
+  font-size: 1.8rem;
+  box-shadow: none;
+  font-weight: bold;
+}
 @media screen and (min-width: 750px) {
   .customer.account>div{
     display: flex;
     justify-content: space-between;
+  }
+  .customer.account>div:last-child{
+    flex-direction: column;
+  }
+  .customer.account>div:last-child>div:last-child{
+    margin-top: 3rem;
+  }
+  .customer.account>div>a{
+    color: #770000;
   }
 }
 /* CSS EDITADO JAN 22 [END] */

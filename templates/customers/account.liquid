@@ -35,7 +35,7 @@
                     headers="ColumnOrder"
                     data-label="{{ 'customer.orders.order_number' | t }}"
                   >
-                    <a href="{{ order.customer_url }}" aria-label="{{ 'customer.orders.order_number_link' | t: number: order.name }}">
+                    <a class="order__number" href="{{ order.customer_url }}" aria-label="{{ 'customer.orders.order_number_link' | t: number: order.name }}">
                       {{ order.name }}
                     </a>
                   </td>
@@ -49,7 +49,7 @@
                     {{ order.fulfillment_status_label }}
                   </td>
                   <td headers="RowOrder ColumnTotal" role="cell" data-label="{{ 'customer.orders.total' | t }}">
-                    {{ order.total_price | money_with_currency }}</td>
+                    {{ order.total_price | money }}</td>
                 </tr>
               {%- endfor -%}
             </tbody>
@@ -107,7 +107,7 @@
 
       {{ customer.default_address | format_address }}
 
-      <a href="{{ routes.account_addresses_url }}">
+      <a class="see__addresses" href="{{ routes.account_addresses_url }}">
         {{ 'customer.account.view_addresses' | t }} ({{ customer.addresses_count }})
       </a>
     </div>

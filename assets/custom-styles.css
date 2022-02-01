@@ -1,5 +1,4 @@
 /* page overlay (start) */
-
 .page__overlay {
     position: fixed;
     top: 0;
@@ -35,19 +34,19 @@
     justify-content: center;
 }
 .search__input.field__input{
-    border: 0.1rem solid #6470ff;
+    border: 0.1rem solid #030d4f;
     border-radius: 1rem;
     color: #6470ff;
 }
 .search__container .field__button {
-    background-color: #6b70ff;
+    background-color: #030d4f;
     padding: 0 0rem;
     width: 7rem;
     border-radius: 1rem;
 }
 .search__container .field__button svg{
-    width: 2rem;
-    height: 2rem;
+    width: 2.5rem;
+    height: 2.5rem;
     color: #FFF
 }
 .predictive-search.predictive-search--header{
