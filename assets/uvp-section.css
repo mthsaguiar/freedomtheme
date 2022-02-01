@@ -8,10 +8,13 @@
     padding: 2rem;
     border-radius: 2rem;
     background-color: #c9e1ff;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 .uvp-section ul li svg{
     width: 64px;
     height: 64px;
+    fill: #030d4f;
 }
 .uvp-section ul li{
     display: flex;
@@ -25,7 +28,7 @@
     font-weight: bold;
     margin: 0;
     padding-top: 2rem;
-    color: #3c3c3c;
+    color: #030d4f;
 }
 @media screen and (min-width: 750px) {
     .uvp-section ul{
