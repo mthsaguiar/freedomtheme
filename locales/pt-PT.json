@@ -299,9 +299,9 @@
     "account_fallback": "Conta",
     "activate_account": {
       "title": "Ativar conta",
-      "subtext": "Crie a sua palavra-passe para ativar a sua conta.",
-      "password": "Palavra-passe",
-      "password_confirm": "Confirmar palavra-passe",
+      "subtext": "Crie a sua senha para ativar a sua conta.",
+      "password": "Senha",
+      "password_confirm": "Confirmar senha",
       "submit": "Ativar conta",
       "cancel": "Recusar convite"
     },
