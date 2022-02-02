@@ -155,9 +155,9 @@
         "3bfa8c64-23bc-4ae8-943a-20e654abbd7d"
       ],
       "settings": {
-        "background_color": "#f1f1f1",
-        "title_color": "#454545",
-        "subtitle_color": "#8c8c8c",
+        "background_color": "#ceecef",
+        "title_color": "#030d4f",
+        "subtitle_color": "#030d4f",
         "title": "Avaliações de quem usa",
         "subtitle": "Opinião de quem importa"
       }
