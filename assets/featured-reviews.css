@@ -4,6 +4,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-bottom: 2rem;
 }
 
 .featured-reviews__title {
@@ -15,7 +16,7 @@
     max-width: 224px;
     margin: 0 auto;
     line-height: 3rem;
-    padding-bottom: 1rem;
+    padding-bottom: 0.5rem;
 }
 
 .featured-reviews__subtitle {
@@ -28,7 +29,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(133, 74, 74);
+    background-color: #FFF;
     border-radius: 12px;
     width: 90%;
     max-width: 296px;
@@ -45,6 +46,7 @@
     max-width: 320px;
     word-break: break-all;
     padding: 2rem;
+    color: #030d4f;
 }
 
 .featured-reviews__instagram {
@@ -81,7 +83,7 @@
 
 .featured-reviews__total-count ul li path,
 .featured-reviews__content ul li path {
-    fill: #404040;
+    fill: #ffc52c;
 }
 
 .featured-reviews__total-count ul li svg {
@@ -94,7 +96,7 @@
     margin: 0 auto;
     display: flex;
     width: fit-content;
-    padding: 1rem 0 0 0;
+    padding: .25rem 0 0 0;
 }
 
 @media screen and (min-width: 750px) {
