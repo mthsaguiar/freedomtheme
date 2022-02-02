@@ -188,6 +188,7 @@
     
 
     {{ 'base.css' | asset_url | stylesheet_tag }}
+    {{ 'flickity.css' | asset_url | stylesheet_tag }}
     {{ 'custom-styles.css' | asset_url | stylesheet_tag }}
     
 
@@ -208,6 +209,7 @@
     }
     </script>
     <script src="{{ 'vue.js' | asset_url }}" defer="defer"></script>
+    <script src="{{ 'flickity.js' | asset_url }}" defer="defer"></script>
   </head>
 
   <body class="gradient">
