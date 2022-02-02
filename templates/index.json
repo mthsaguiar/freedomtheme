@@ -33,6 +33,7 @@
     "16437441898dbe24d6": {
       "type": "custom-featured-collection",
       "settings": {
+        "title_id": "produtos em destaque",
         "collection_id": "t-shirt"
       }
     },
