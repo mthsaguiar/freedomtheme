@@ -7,6 +7,7 @@
     "type_body_font": "montserrat_n4",
     "page_width": "1200",
     "spacing_sections": 0,
+    "buttons_radius": 8,
     "variant_pills_radius": 8,
     "inputs_radius": 8,
     "shipping_bar_content": "Frete GRÁTIS acima de",
