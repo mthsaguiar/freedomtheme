@@ -45,9 +45,10 @@
     justify-content: center;
 }
 .search__input.field__input{
-    border: 0.1rem solid #030d4f;
+    border: 0.2rem solid #030d4f;
     border-radius: 1rem;
     color: #6470ff;
+    box-shadow: none;
 }
 .search__container .field__button {
     background-color: #030d4f;
@@ -312,7 +313,162 @@
 
 /*PRODUCT PAGE[START]*/
 
-#product-page-second__half{
+#product-page-second__half {
     padding-left: 0;
+}
+.product__media.media {
+    padding-bottom: 424px;
+}
+.grid__item .product__info-container .price--on-sale .price-item--regular{
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    font-weight: bold;
+    text-decoration: line-through;
+    color: #fb0c06;
+}
+.product__title {
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #444444;
+    margin: 0;
+}
+.price-item--last {
+    font-size: 2rem;
+    line-height: 2.4rem;
+    color: #030d4f;
+}
+.price-item--last b{
+    font-size: 2.5rem;
+}
+.price .price__container .price__sale{
+    display: flex;
+    flex-direction: column;
+}
+.price__sale>span{
+    line-height: 2.2rem;
+}
+.price__container{
+    font-family: 'AT Open Sans';
+}
+.quantity-atc__separator{
+    display: flex;
+}
+.quantity-atc__separator .product-form__input{
+    flex: auto;
+}
+.atc__container{
+    width: -webkit-fill-available;
+    margin-left: 2rem;
+}
+.product-form__input input[type='radio'] + label.variant__model{
+    position: relative;
+    padding: 0 0 48px 0;
+    width: 48px;
+    border-radius: 1rem;
+}
+.product-form__input input[type='radio'] + label.variant__model img{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.variant__model-span{
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 1rem;
+}
+variant-radios label{
+    color:#030d4f;
+}
+.product__info-wrapper .product-form__input input[type='radio']:checked + label,
+.product-form__input input[type='radio']:checked + label.variant__model{
+    border: 2px solid #fb0c06 ;
+    background-color: #FFF;
+    color:#030d4f;
+    font-weight: bold;
+}
+.product-form__input input[type='radio']:checked + label .variant__model-span-normal::after,
+.product-form__input input[type='radio']:checked + label.variant__model .variant__model-span::after{
+    content: '';
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: text-top;
+    width: 16px;
+    height: 16px;
+    background: #fb0c06 ;
+    top: -1rem;
+    right: -2rem;
+    border-radius: 1rem;
+    position: absolute;
+}
+.product-form__input input[type='radio']:checked + label .variant__model-span-normal::before,
+.product-form__input input[type='radio']:checked + label.variant__model .variant__model-span::before{
+    content: '';
+    position: absolute;
+    right: 0.1rem;
+    top: -0.3rem;
+    background: #ceecef;
+    width: 2px;
+    height: 2px;
+    box-shadow: 2px 0 0 #ceecef, 4px 0 0 #ceecef, 4px -2px 0 #ceecef, 4px -4px 0 #ceecef, 4px -6px 0 #ceecef, 4px -8px 0 #ceecef;
+    transform: rotate(
+45deg
+);
+    z-index: 1;
+}
+.product__info-wrapper .product-form__input{
+    margin: 0 0 0.75rem 0;
+}
+.product-form__input .form__label,
+fieldset.product-form__input .form__label{
+    font-weight: bold;
+}
+.atc__content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.4rem;
+    text-transform: lowercase;
+    font-weight: bold;
+    letter-spacing: 0.2px;
+}
+.atc__content svg{
+    width: 32px;
+    height: 32px;
+    fill: #FFF;
+}
+.quantity__input{
+    font-size: 1.8rem;
+    color: #030d4f;
+    font-weight: bold;
+}
+.quantity__button svg{
+    fill: #030d4f;
+    width: 1.75rem;
+    height: 1.75rem;
+}
+.atc__content svg.icon-minus{
+    width: 8px;
+    height: 16px;
+    margin: 0 1rem;
+}
+ @media screen and (max-width: 749px) {
+    .product .product__media.media{
+      padding-bottom: 364px;
+    }
+    .quantity-atc__separator{
+        flex-direction: column;
+    }
+    .atc__container {
+        margin-left: 0;
+    }
+        
 }
 /*PRODUCT PAGE[END]*/

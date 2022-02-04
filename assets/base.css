@@ -1163,10 +1163,11 @@ summary::-webkit-details-marker {
   display: block;
   max-width: 100%;
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 50%;
+  left: 50%;
   height: 100%;
-  width: 100%;
+  width: auto;
+  transform: translate(-50%,-50%);
 }
 
 .media > img {
