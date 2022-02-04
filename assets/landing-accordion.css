@@ -1,18 +1,40 @@
 .accordion__section-title {
-    background-color: #eee;
+    background-color: #e7edea;
     color: #444;
     cursor: pointer;
-    padding: 18px;
+    padding: 2.5rem;
     width: 100%;
     border: none;
     text-align: left;
     outline: none;
     font-size: 15px;
     transition: 0.4s;
-  }
-  .accordion__section-tab{
-      overflow: hidden;
-      transition: 0.5s all ease-in-out ;
-      height: 0;
-  }
-  
+}
+.accordion__section-tab{
+    overflow: hidden;
+    transition: 0.5s all ease-in-out ;
+    height: 0;
+}
+.accordion__section-title{
+    display: flex;
+    justify-content: space-between;
+}
+.accordion__section-title svg{
+    fill: #ffc52c;
+}
+.accordion__section-title h2{
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: bold;
+    padding-left: 1rem;
+} 
+.accordion__icon-title{
+    display: flex;
+}
+.active .accordion__arrow svg{
+    transition: 0.5s all ease-out;
+}
+.active .accordion__arrow svg{
+    transform: rotate(180deg);
+}
