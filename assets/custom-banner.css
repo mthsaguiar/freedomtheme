@@ -1,0 +1,26 @@
+.custom-banner{
+    position: relative;
+}
+.custom-banner__image img{
+    display: block;
+    max-width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 100%;
+    width: 100%;
+}
+.cutom-banner__btn{
+    position: absolute;
+    bottom: 20%;
+    left: 20%;
+    padding: 0.7rem 3rem;
+    border-radius: 24px;
+    border: none;
+    background-color: #82B34C;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.6rem;
+    cursor: pointer;
+}

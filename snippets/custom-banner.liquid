@@ -1,0 +1,40 @@
+{{ 'custom-banner.css' | asset_url | stylesheet_tag }}
+{% assign paddingValue = 1| divided_by: image_id.aspect_ratio | round: 2 | times: 100%}
+{% assign paddingValueMobile = 1| divided_by: image_mobile_id.aspect_ratio | round: 2 | times: 100%}
+
+{%- style -%}
+    .custom-banner__image{
+        padding-bottom: {{paddingValue}}%
+    }
+    @media screen and (max-width: 749px) {
+        #banner-{{section.id}} {
+            padding-bottom: {{paddingValueMobile}}%;
+            background-image: url('{{ image_mobile_id | img_url: '800x' }}');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+        #banner-{{section.id}} img{
+            z-index: -1
+        }
+    }
+{%- endstyle -%}
+
+<div class="custom-banner">
+    <a href="{{ banner_url }}">
+    <div id="banner-{{section.id}}" class="custom-banner__image">
+        <img  srcset="{%- if image_id.width >= 375 -%}{{ image_id | img_url: '375x' }} 375w,{%- endif -%}
+              {%- if image_id.width >= 750 -%}{{ image_id | img_url: '750x' }} 750w,{%- endif -%}
+              {%- if image_id.width >= 1100 -%}{{ image_id | img_url: '1100x' }} 1100w,{%- endif -%}
+              {%- if image_id.width >= 1500 -%}{{ image_id | img_url: '1500x' }} 1500w,{%- endif -%}
+              {%- if image_id.width >= 1780 -%}{{ image_id | img_url: '1780x' }} 1780w,{%- endif -%}
+              {%- if image_id.width >= 2000 -%}{{ image_id | img_url: '2000x' }} 2000w,{%- endif -%}
+              {%- if image_id.width >= 3000 -%}{{ image_id | img_url: '3000x' }} 3000w,{%- endif -%}
+              {%- if image_id.width >= 3840 -%}{{ image_id | img_url: '3840x' }} 3840w,{%- endif -%}
+              {{ image_id | img_url: 'master' }} {{ image_id.width }}w"
+        sizes="(min-width: 750px) 100vw" src="{{ image_id | img_url: '1500x' }}" loading="lazy"
+        alt="{{ image_id.alt | escape }}" width="{{ image_id.width }}"
+        height="{{ image_id.width | divided_by: image_id.aspect_ratio }}">
+     </div>
+    </a>
+</div>
