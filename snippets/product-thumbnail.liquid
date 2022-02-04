@@ -86,7 +86,7 @@
     -%}
   </span>
 
-  <div class="product__media media media--transparent" style="padding-top: {{ 1 | divided_by: media.preview_image.aspect_ratio | times: 100 }}%;">
+  <div class="product__media media media--transparent" style="overflow: hidden; border: none;">
     <img
       srcset="{% if media.preview_image.width >= 493 %}{{ media.preview_image | img_url: '493x' }} 493w,{% endif %}
         {% if media.preview_image.width >= 600 %}{{ media.preview_image | img_url: '600x' }} 600w,{% endif %}

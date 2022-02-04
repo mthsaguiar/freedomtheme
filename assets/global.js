@@ -5,6 +5,24 @@ function getFocusableElements(container) {
     )
   );
 }
+const serializeForm = form => {
+  const obj = {};
+  const formData = new FormData(form);
+
+  for (const key of formData.keys()) {
+    const regex = /(?:^(properties\[))(.*?)(?:\]$)/;
+
+    if (regex.test(key)) {
+      obj.properties = obj.properties || {};
+      obj.properties[regex.exec(key)[2]] = formData.get(key);
+    } else {
+      obj[key] = formData.get(key);
+    }
+  }
+
+  return JSON.stringify(obj);
+};
+
 
 document.querySelectorAll('[id^="Details-"] summary').forEach((summary) => {
   summary.setAttribute('role', 'button');
@@ -843,7 +861,7 @@ class VariantSelects extends HTMLElement {
       if (text) addButtonText.textContent = text;
     } else {
       addButton.removeAttribute('disabled');
-      addButtonText.textContent = window.variantStrings.addToCart;
+      addButtonText.innerHTML = window.variantStrings.addToCart;
     }
 
     if (!modifyClass) return;
