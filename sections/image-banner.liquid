@@ -47,7 +47,7 @@
                      {%- if block.settings.image.width >= 3000 -%}{{ block.settings.image | img_url: '3000x' }} 3000w,{%- endif -%}
                      {%- if block.settings.image.width >= 3840 -%}{{ block.settings.image | img_url: '3840x' }} 3840w,{%- endif -%}
                      {{ block.settings.image | img_url: 'master' }} {{ block.settings.image.width }}w"
-               sizes="(min-width: 750px) 100vw" src="{{ block.settings.image | img_url: '1500x' }}" loading="lazy"
+               sizes="(min-width: 750px) 100vw" src="{{ block.settings.image | img_url: '1500x' }}"
                alt="{{ block.settings.image.alt | escape }}" width="{{ block.settings.image.width }}"
                height="{{ block.settings.image.width | divided_by: block.settings.image.aspect_ratio }}">
             </div>
