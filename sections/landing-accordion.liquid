@@ -17,6 +17,17 @@
                 image_mobile_id: block.settings.image_mobile_id
                 banner_url: block.settings.banner_url
                 -%}
+            {%- when 'acc-image' -%}
+                {%- render 'accordion-image'
+                title_id: block.settings.title_id
+                image_id: block.settings.image_id
+                tab_title_1: block.settings.tab_title_1
+                tab_content_1:block.settings.tab_content_1
+                tab_title_2: block.settings.tab_title_2
+                tab_content_2:block.settings.tab_content_2
+                tab_title_3: block.settings.tab_title_3
+                tab_content_3:block.settings.tab_content_3
+                -%}
           {%- endcase -%}
     {%- endfor -%}
     </div>
@@ -38,6 +49,7 @@
     }
     });
 </script>
+
 
 
 {% schema %}
@@ -79,8 +91,53 @@
                     "label": "Banner url"
                 }
             ]
-        }
-    
+        },
+        {
+            "type": "acc-image",
+            "name": "Accordion Image",
+            "settings":[
+                 {
+                     "type": "text",
+                     "id": "title_id",
+                     "label": "Content Title"
+                 },
+                {
+                    "type": "image_picker",
+                    "id": "image_id",
+                    "label": "Image"
+                },
+                {
+                    "type": "text",
+                    "id": "tab_title_1",
+                    "label": "Tab Title 1"
+                },
+                {
+                    "type": "richtext",
+                    "id": "tab_content_1",
+                    "label": "Tab Content 1"
+                },
+                {
+                    "type": "text",
+                    "id": "tab_title_2",
+                    "label": "Tab Title 2"
+                },
+                {
+                    "type": "richtext",
+                    "id": "tab_content_2",
+                    "label": "Tab Content 2"
+                },
+                {
+                    "type": "text",
+                    "id": "tab_title_3",
+                    "label": "Tab Title 3"
+                },
+                {
+                    "type": "richtext",
+                    "id": "tab_content_3",
+                    "label": "Tab Content 3"
+                }
+            ]
+        }    
     ],
    "presets": [
        {

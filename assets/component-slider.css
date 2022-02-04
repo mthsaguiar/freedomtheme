@@ -232,9 +232,6 @@ slider-component {
   color: rgb(var(--color-foreground));
 }
 
-.slider-button .icon {
-  height: 0.6rem;
-}
 
 .slider-button[disabled] .icon {
   color: rgba(var(--color-foreground), 0.3);
@@ -242,11 +239,11 @@ slider-component {
 }
 
 .slider-button--next .icon {
-  transform: rotate(-90deg);
+  transform: rotate(90deg);
 }
 
 .slider-button--prev .icon {
-  transform: rotate(90deg);
+  transform: rotate(-90deg);
 }
 
 .slider-button--next:not([disabled]):hover .icon {
