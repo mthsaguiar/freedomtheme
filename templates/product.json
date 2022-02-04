@@ -71,10 +71,23 @@
             "image_mobile_id": "shopify:\/\/shop_images\/Giraffe_2019-07-28.jpg",
             "banner_url": ""
           }
+        },
+        "a78dae9c-7310-4292-994f-28c625d1947e": {
+          "type": "acc-image",
+          "settings": {
+            "title_id": "",
+            "tab_title_1": "",
+            "tab_content_1": "",
+            "tab_title_2": "",
+            "tab_content_2": "",
+            "tab_title_3": "",
+            "tab_content_3": ""
+          }
         }
       },
       "block_order": [
-        "dac8060d-a6a1-4a9a-a97f-58ee7874c387"
+        "dac8060d-a6a1-4a9a-a97f-58ee7874c387",
+        "a78dae9c-7310-4292-994f-28c625d1947e"
       ],
       "settings": {
         "title_id": "DESCRIÇÃO DO PRODUTO",
