@@ -29,7 +29,9 @@
 
     {% render 'meta-tags' %}
 
+
     <script src="{{ 'global.js' | asset_url }}" defer="defer"></script>
+    <script src="{{ 'PageSpeed.js' | asset_url }}" defer="defer"></script>
     {{ content_for_header }}
 
     {%- liquid
@@ -208,6 +210,7 @@
     }
     </script>
     <script src="{{ 'vue.js' | asset_url }}" defer="defer"></script>
+    <div id="script__div"></div>
   </head>
 
   <body class="gradient">
