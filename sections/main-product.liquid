@@ -131,6 +131,7 @@
                       alt="{{ featured_media.alt | escape }}"
                       height="208"
                       width="208"
+                      {% if media_count > 1 %} loading="lazy" {%endif%}
                     >
                   </button>
                 </li>
@@ -172,6 +173,7 @@
                         alt="{{ media.alt | escape }}"
                         height="200"
                         width="200"
+                        {% if forloop.index > 1 %} loading="lazy" {%endif%}
                       >
                     </button>
                   </li>
