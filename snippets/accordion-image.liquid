@@ -34,18 +34,18 @@
 </div>
 
 <script>
-    const acc = document.querySelectorAll(".accordion-image__img-content .accordion");
+    const acc2 = document.querySelectorAll(".accordion-image__img-content .accordion");
     let i;
     
-    for (i = 0; i < acc.length; i++) {
-      acc[i].addEventListener("click", function() {
+    for (i = 0; i < acc2.length; i++) {
+      acc2[i].addEventListener("click", function() {
         this.classList.toggle("active");
-        const panel = this.nextElementSibling;
-        const scrollHeight = panel.scrollHeight;
-        if (panel.style.height === scrollHeight+'px') {
-            panel.style.height = "0";
+        const panel2 = this.nextElementSibling;
+        const scrollHeight = panel2.scrollHeight;
+        if (panel2.style.height === scrollHeight+'px') {
+            panel2.style.height = "0";
         } else {
-            panel.style.height = scrollHeight+'px';
+            panel2.style.height = scrollHeight+'px';
         }
       });
     }

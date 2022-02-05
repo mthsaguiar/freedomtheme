@@ -10,6 +10,29 @@
     font-size: 15px;
     transition: 0.4s;
 }
+.accordion__image{
+    display: flex;
+    padding: 2.5rem;
+    align-items: center;
+    justify-content: center;
+}
+.accordion-image__img-wrapper{
+    width: 50%;
+    padding-top: 324px;
+    position: relative;
+    overflow: hidden;
+}
+.accordion-image__img-content{
+    width: 50%;
+}
+.accordion-image__img-wrapper img{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    width: 100%;
+    height: auto;
+}
   
 .accordion-image__img-content .active, .accordion:hover {
     background-color: #ccc; 
@@ -17,7 +40,8 @@
   
 .accordion-image__img-content .panel {
     padding: 0 18px;
-    display: none;
+    height: 0;
     background-color: white;
     overflow: hidden;
+    transition: 0.5s all ease-in-out ;
 }
