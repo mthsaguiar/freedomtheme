@@ -34,15 +34,15 @@
     </div>
 </div>
 <script>
-    const section_id = '{{section.id}}';
+    var section_id = '{{section.id}}';
     console.log(section_id)
-    const acc = document.getElementById(`accordion-${section_id}`);
+    var acc = document.getElementById(`accordion-${section_id}`);
 
 
     acc.addEventListener("click", function() {
     this.classList.toggle("active");
-    const panel = this.nextElementSibling;
-    const scrollHeight = panel.scrollHeight;
+    var panel = this.nextElementSibling;
+    var scrollHeight = panel.scrollHeight;
     if (panel.style.height === scrollHeight+'px') {
         panel.style.height = "0";
     } else {

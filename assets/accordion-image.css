@@ -1,14 +1,43 @@
 .accordion-image__img-content .accordion {
-    background-color: #eee;
-    color: #444;
+    background-color: #e7edea;
+    color: #030d4f;
     cursor: pointer;
-    padding: 18px;
+    padding: 1.5rem 1rem 1.5rem 4rem;
     width: 100%;
     border: none;
     text-align: left;
     outline: none;
-    font-size: 15px;
+    font-size: 1.8rem;
     transition: 0.4s;
+    font-weight: bold;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.accordion-image__img-content .accordion svg{
+    margin-left: auto;
+    transition: 0.5s all ease-in-out;
+}
+.accordion-image__img-content .accordion.active svg{
+    transform: rotate(180deg);
+}
+.accordion-image__img-content .accordion::after{
+    content: '';
+    background: url('./arrow.svg') center / 16px #ffc52c no-repeat;
+}
+.accordion-image__img-content .accordion::before{
+    background: url('./checkmark.svg') center / 16px #ffc52c no-repeat;
+    border-radius: 4px;
+    content: '';
+    display: block;
+    height: 20px;
+    position: absolute;
+    top: 15px;
+    left: 6px;
+    width: 20px;
+}
+.accordion-image__img-content .accordion::before svg{
+    fill:#030d4f;
 }
 .accordion__image{
     display: flex;
@@ -17,13 +46,15 @@
     justify-content: center;
 }
 .accordion-image__img-wrapper{
-    width: 50%;
+    width: 45%;
     padding-top: 324px;
     position: relative;
     overflow: hidden;
+    box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
 }
 .accordion-image__img-content{
-    width: 50%;
+    width: 55%;
+    padding-left: 2rem;
 }
 .accordion-image__img-wrapper img{
     position: absolute;
@@ -35,7 +66,7 @@
 }
   
 .accordion-image__img-content .active, .accordion:hover {
-    background-color: #ccc; 
+    background-color: #ceecef; 
 }
   
 .accordion-image__img-content .panel {
