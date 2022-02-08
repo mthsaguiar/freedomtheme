@@ -97,11 +97,19 @@
             "tab_title_3": "Flexível",
             "tab_content_3": "<p>Isso é só um teste<\/p>"
           }
+        },
+        "5e694671-bfb2-465f-9d56-511a923b5ed0": {
+          "type": "rich_text",
+          "settings": {
+            "title_id": "",
+            "content_id": ""
+          }
         }
       },
       "block_order": [
         "dac8060d-a6a1-4a9a-a97f-58ee7874c387",
-        "a78dae9c-7310-4292-994f-28c625d1947e"
+        "a78dae9c-7310-4292-994f-28c625d1947e",
+        "5e694671-bfb2-465f-9d56-511a923b5ed0"
       ],
       "settings": {
         "title_id": "DESCRIÇÃO DO PRODUTO",
