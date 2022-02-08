@@ -56,7 +56,7 @@
   },
   "newsletter": {
     "label": "E-mail",
-    "success": "Obrigado por se inscrever! CUPOM: <b>BAZARFACIL10<\/b>",
+    "success": "Obrigado por se inscrever!",
     "button_label": "Subscrever"
   },
   "accessibility": {
