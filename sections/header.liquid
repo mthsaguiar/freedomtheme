@@ -366,7 +366,7 @@
     </div>
     <div class="search__container">
       <predictive-search class="search-modal__form" data-loading-text="{{ 'accessibility.loading' | t }}">
-          <form action="{{ routes.seaheader__iconsrch_url }}" method="get" role="search" class="search search-modal__form">
+          <form action="{{ routes.search_url }}" method="get" role="search" class="search search-modal__form">
             <div class="field">
               <input class="search__input field__input"
                 id="Search-In-Modal-1"
@@ -497,15 +497,15 @@
       this.disclosures = this.disclosures || this.header.querySelectorAll('details-disclosure');
       this.disclosures.forEach(disclosure => disclosure.close());
     }
+    /*
     closeSearchModal() {
       this.searchModal = this.searchModal || this.header.querySelector('details-modal');
       this.searchModal.close(false);
-    }
+    }*/
   }
 
   customElements.define('sticky-header', StickyHeader);
 {% endjavascript %}
-
 <script type="application/ld+json">
   {
     "@context": "http://schema.org",

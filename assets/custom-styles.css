@@ -336,6 +336,7 @@
     font-size: 2rem;
     line-height: 2.4rem;
     color: #030d4f;
+    font-weight: 900;
 }
 .price-item--last b{
     font-size: 2.5rem;
@@ -459,6 +460,68 @@ fieldset.product-form__input .form__label{
     height: 16px;
     margin: 0 1rem;
 }
+.shopify-app-block{
+    margin: 0;
+}
+.product__info-wrapper .product__title{
+    margin-bottom: 0.5rem;
+    line-height: 4rem;
+}
+body .product__info-wrapper .shopify-app-block{
+    margin: 0;
+}
+body .product__info-wrapper .product-price__wrapper{
+    margin-top: 0rem;
+}
+.product-form__submit{
+    transition: all 0.5s cubic-bezier(0.04, 0.95, 0.56, 1.02);
+    transform: translate(-4px, -4px);
+    box-shadow: 2px 3px 0 #fb0c06;
+    border: 1px solid #030d4f;
+    background-color: #030d4f;
+    color: #FFF;
+    width: 100%;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-weight: 900;
+    text-align: center;
+    padding: 0.5rem;
+    --shadow-horizontal-offset: none;
+    --shadow-opacity: none;
+    --shadow-blur-radius: none;
+    --shadow-vertical-offset: none;
+    --border-offset: none;
+    --border-opacity: none;
+}
+.product-form__submit:hover{
+    transform: translate(0,0);
+    box-shadow: none;
+}
+/*judge.me[start]*/
+.jdgm-histogram{
+    display: none;
+}
+body .jdgm-histogram.jdgm-temp-hidden{
+    display: none;
+}
+.jdgm-rev-widg__title{
+    display: none;
+}
+.spr-starrating a{
+    font-size: 1.4rem;
+}
+/*judge.me[end]*/
+/*Shopify reviews[start]*/
+.spr-starrating.spr-summary-starrating{
+    display: block;
+}
+.spr-stars svg path{
+    fill: #ffc52c;
+}
+.spr-header-title{
+    display: none;
+}
+/*Shopify reviews[end]*/
  @media screen and (max-width: 749px) {
     .product .product__media.media{
       padding-bottom: 364px;
