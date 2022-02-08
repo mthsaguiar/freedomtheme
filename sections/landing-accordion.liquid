@@ -29,6 +29,8 @@
                 tab_content_3:block.settings.tab_content_3
 
                 -%}
+            {%- when 'custom_html' -%}
+                {{block.settings.custom_html_id}}
           {%- endcase -%}
     {%- endfor -%}
     </div>
@@ -70,6 +72,17 @@
     "blocks":[
         {
             "type": "@app"
+        },
+        {
+           "type": "custom_html",
+           "name": "Custom HTML",
+           "settings": [
+               {
+                   "type": "html",
+                   "id": "custom_html_id",
+                   "label": "Custom HTML"
+               }
+            ]
         },
         {
            "type": "banner",

@@ -521,6 +521,75 @@ body .jdgm-histogram.jdgm-temp-hidden{
 .spr-header-title{
     display: none;
 }
+.spr-summary-actions .spr-summary-actions-newreview{
+    color: #030d4f;
+    font-weight: bold;
+}
+.spr-form-input textarea,
+.spr-form-review-title input,
+.spr-form-contact-email input,
+.spr-form-contact-name input{
+    border: 1px solid rgb(3 13 79 / 70%);
+    border-radius: 0.5rem;
+    padding: 1rem 0.5rem;
+    color: rgb(3 13 79 / 100%);
+    font-size: 1.4rem;
+}
+.spr-form-input textarea{
+    font-size: 1.6rem;
+}
+.spr-form-actions input{
+    transition: all 0.5s cubic-bezier(0.04, 0.95, 0.56, 1.02);
+    transform: translate(-4px, -4px);
+    box-shadow: 2px 3px 0 #fb0c06;
+    border: 1px solid #030d4f;
+    background-color: #030d4f;
+    color: #FFF;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-weight: 900;
+    padding: 0.5rem;
+}
+.spr-form-actions input:hover{
+    transform: translate(0,0);
+    box-shadow: none;
+}
+.spr-review-header .spr-review-header-byline{
+    font-style: normal;
+    font-size: 1.6rem;
+}
+.spr-review-header .spr-review-header-title{
+    font-weight: bold;
+    font-size: 2rem;
+}
+.spr-review-content .spr-review-content-body{
+    font-size: 1.6rem;
+    color: rgba(0,0,0,0.8);
+}
+.spr-header .spr-summary{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.spr-summary-actions{
+    width: 100%;
+}
+@media screen and (min-width: 750px) {
+    .spr-form-contact{
+        display: flex;
+    }
+    .spr-form-contact-email,
+    .spr-form-contact-name{
+        width: 100%;
+        width: -moz-available;
+        width: -webkit-fill-available;
+        width: fill-available;
+    
+    }
+    .spr-form-contact .spr-form-contact-email{
+        margin: 0 0 15px 15px;
+    }
+}
 /*Shopify reviews[end]*/
  @media screen and (max-width: 749px) {
     .product .product__media.media{

@@ -76,3 +76,16 @@
     overflow: hidden;
     transition: 0.5s all ease-in-out ;
 }
+
+@media screen and (max-width: 749px) {
+    .accordion__image{
+        flex-direction: column;
+    }
+    .accordion-image__img-content,
+    .accordion-image__img-wrapper{
+        width: 100%;
+    }
+    .accordion-image__img-content{
+        padding-left: 0;
+    }
+}
