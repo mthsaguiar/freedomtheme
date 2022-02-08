@@ -102,7 +102,7 @@
           "type": "rich_text",
           "settings": {
             "title_id": "",
-            "content_id": ""
+            "content_id": "<p><strong>aaaa<\/strong><\/p>"
           }
         }
       },
