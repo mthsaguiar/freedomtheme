@@ -103,14 +103,14 @@
     "16442616250c1e6f2d": {
       "type": "landing-accordion",
       "blocks": {
-        "1f177667-8ff6-4e75-ba25-13e10950c002": {
-          "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
+        "7b93d260-202a-4adb-994b-c962f734bf80": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
           }
         }
       },
       "block_order": [
-        "1f177667-8ff6-4e75-ba25-13e10950c002"
+        "7b93d260-202a-4adb-994b-c962f734bf80"
       ],
       "settings": {
         "title_id": "Avaliações dos clientes",
