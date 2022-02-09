@@ -39,3 +39,20 @@
 .active .accordion__arrow svg{
     transform: rotate(180deg);
 }
+.rich-text__content p{
+    text-align: center;
+    color: #323232;
+}
+.rich-text__cotainer{
+    margin: 2rem;
+    padding: 2rem;
+    box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+}
+.rich-text__title{
+    font-weight: bold;
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 0;
+    padding-bottom: 2rem;
+    color: #323232;
+}
