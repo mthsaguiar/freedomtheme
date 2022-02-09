@@ -589,6 +589,9 @@ body .jdgm-histogram.jdgm-temp-hidden{
     .spr-form-contact .spr-form-contact-email{
         margin: 0 0 15px 15px;
     }
+    .spr-header .spr-summary{
+        justify-content: flex-start;
+    }
 }
 /*Shopify reviews[end]*/
  @media screen and (max-width: 749px) {
