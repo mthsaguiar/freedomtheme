@@ -19,9 +19,9 @@
       "vue-cart-drawer": {
         "type": "vue-cart-drawer",
         "settings": {
-          "buttons_color": "#3c3c3c",
-          "shipping_background": "#3c3c3c",
-          "shipping_text-color": "#3c3c3c"
+          "buttons_color": "#030d4f",
+          "shipping_background": "#ffc52c",
+          "shipping_text-color": "#030d4f"
         }
       },
       "vue-shipping-section": {
@@ -53,7 +53,7 @@
           "footer-0": {
             "type": "link_list",
             "settings": {
-              "menu": "menu-principal"
+              "menu": ""
             }
           },
           "e057fcfb-7ba8-4037-8091-2f12ba8ddbed": {
@@ -115,21 +115,6 @@
     },
     "content_for_index": [
 
-    ],
-    "blocks": {
-      "14060646107696862457": {
-        "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/judgeme_core\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-        "disabled": false,
-        "settings": {
-        }
-      },
-      "12120936241911852800": {
-        "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/reviews_tab\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-        "disabled": false,
-        "settings": {
-          "position": "right"
-        }
-      }
-    }
+    ]
   }
 }
