@@ -8,23 +8,6 @@
           "settings": {
           }
         },
-        "78e01fd3-432e-4fde-ae7e-e263221c7977": {
-          "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
-          "disabled": true,
-          "settings": {
-            "stars_fill_color": "#ffc52c",
-            "star_size": 15,
-            "text_align": "flex-start",
-            "product": "{{product}}",
-            "stars_text_empty": "No reviews"
-          }
-        },
-        "9fe1f952-01f2-4835-bc50-e16d4e26e332": {
-          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "disabled": true,
-          "settings": {
-          }
-        },
         "price": {
           "type": "price",
           "settings": {
@@ -55,8 +38,6 @@
       },
       "block_order": [
         "title",
-        "78e01fd3-432e-4fde-ae7e-e263221c7977",
-        "9fe1f952-01f2-4835-bc50-e16d4e26e332",
         "price",
         "variant_picker",
         "quantity_selector",
@@ -80,8 +61,6 @@
         "dac8060d-a6a1-4a9a-a97f-58ee7874c387": {
           "type": "banner",
           "settings": {
-            "image_id": "shopify:\/\/shop_images\/banner-test.jpg",
-            "image_mobile_id": "shopify:\/\/shop_images\/Giraffe_2019-07-28.jpg",
             "banner_url": ""
           }
         },
@@ -89,7 +68,6 @@
           "type": "acc-image",
           "settings": {
             "title_id": "O que há de melhor no mercado",
-            "image_id": "shopify:\/\/shop_images\/Giraffe_2019-07-28.jpg",
             "tab_title_1": "Resistência nunca vista",
             "tab_content_1": "<p>Isso é só um teste<\/p>",
             "tab_title_2": "Titanium max",
@@ -101,7 +79,7 @@
         "5e694671-bfb2-465f-9d56-511a923b5ed0": {
           "type": "rich_text",
           "settings": {
-            "title_id": "Tecnologia MACIEZ ULTRA",
+            "title_id": "<p>Tecnologia MACIEZ ULTRA<\/p>",
             "content_id": "<p><strong>Conta com tecnologia de ponta desenvolvida para aumentar a qualidade do sono dos animais!<\/strong><\/p>"
           }
         }
@@ -120,21 +98,14 @@
     "16442616250c1e6f2d": {
       "type": "landing-accordion",
       "blocks": {
-        "7b93d260-202a-4adb-994b-c962f734bf80": {
-          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "disabled": true,
-          "settings": {
-          }
-        },
-        "0a51f42c-1a5c-4c15-ac4d-d9ed20f4959c": {
+        "2bce9b8f-5c01-40fe-9b87-605a9992b4d0": {
           "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
           "settings": {
           }
         }
       },
       "block_order": [
-        "7b93d260-202a-4adb-994b-c962f734bf80",
-        "0a51f42c-1a5c-4c15-ac4d-d9ed20f4959c"
+        "2bce9b8f-5c01-40fe-9b87-605a9992b4d0"
       ],
       "settings": {
         "title_id": "Avaliações dos clientes",
