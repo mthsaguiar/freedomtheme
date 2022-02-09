@@ -80,6 +80,10 @@
     text-transform: uppercase;
     font-weight: bold;
 }
+.menu-drawer__account svg{
+    margin-right: 1rem;
+    fill: #030d4f;
+}
 @media screen and (min-width: 750px) {
     .predictive-search.predictive-search--header{
         width: max-content;
@@ -93,6 +97,9 @@
         grid-template-areas: 'heading search icons'
                              'navigation navigation navigation';
         grid-template-columns: 1fr 1fr 1fr;
+    }
+    .menu-drawer__account svg{
+        margin-right: none;
     }
 }
 
