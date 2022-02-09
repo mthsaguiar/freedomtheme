@@ -613,3 +613,20 @@ body .jdgm-histogram.jdgm-temp-hidden{
 }
 
 /*PRODUCT PAGE[END]*/
+
+/*PAGES[START]*/
+.page-width--narrow .rte{
+    text-align: justify;
+}
+.contact__button button{
+    background-color: #030D4F;
+    border: none;
+    box-shadow: none;
+}
+.contact__button button::after{
+    box-shadow: none;
+}
+.contact__button button::before{
+    box-shadow: none;
+}
+/*PAGES[END]*/
