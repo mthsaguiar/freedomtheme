@@ -6,9 +6,9 @@
         "19b4b371-3032-4e51-8f45-bba44ad1f609": {
           "type": "text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/banner-test.jpg",
+            "image": "shopify:\/\/shop_images\/bannerdesk.png",
             "link_url": "",
-            "image_mobile": "shopify:\/\/shop_images\/Giraffe_2019-07-28.jpg"
+            "image_mobile": "shopify:\/\/shop_images\/bannermobile.png"
           }
         }
       },
