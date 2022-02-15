@@ -15,6 +15,7 @@
     "free_shipping_message": "Parabéns! Você ganhou frete grátis!",
     "missing_value_message_before": "Faltam",
     "missing_value_message_after": "para FRETE GRÁTIS!",
+    "favicon": "shopify:\/\/shop_images\/favicon.png",
     "sections": {
       "vue-cart-drawer": {
         "type": "vue-cart-drawer",
