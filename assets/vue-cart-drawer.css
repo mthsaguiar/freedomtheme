@@ -235,7 +235,7 @@ hr.cart-drawer__divider {
     cursor: pointer;
     font-weight: normal;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.8rem;
     letter-spacing: 0.5px;
     padding: 1rem;
 }
@@ -377,7 +377,7 @@ hr.cart-drawer__divider {
         padding-left: 0.5rem;
     }
     .checkout__btn {
-        padding: 16px 12px;
+        padding: 1rem;
     }
     .checkout-btn__separator {
         margin: 0 6px 3px;
