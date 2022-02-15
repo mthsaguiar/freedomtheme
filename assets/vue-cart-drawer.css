@@ -233,10 +233,11 @@ hr.cart-drawer__divider {
     width: 100%;
     border-radius: 0.5rem;
     cursor: pointer;
-    font-weight: 600;
+    font-weight: normal;
     text-align: center;
     font-size: 2rem;
-    letter-spacing: 0.25px;
+    letter-spacing: 0.5px;
+    padding: 1rem;
 }
 
 .checkout__btn:hover {
