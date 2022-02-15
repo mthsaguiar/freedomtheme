@@ -478,6 +478,7 @@ body .product__info-wrapper .shopify-app-block{
 body .product__info-wrapper .product-price__wrapper{
     margin-top: 0rem;
 }
+
 .product-form__submit{
     transition: all 0.5s cubic-bezier(0.04, 0.95, 0.56, 1.02);
     transform: translate(-4px, -4px);
@@ -629,4 +630,20 @@ body .jdgm-histogram.jdgm-temp-hidden{
 .contact__button button::before{
     box-shadow: none;
 }
+.page-width--narrow li,
+.page-width--narrow span,
+.page-width--narrow ul,
+.page-width--narrow h1,
+.page-width--narrow .rte p{
+    color: rgb(0,0,0,1);
+    font-family: inherit;
+}
+.page-width--narrow .rte span{
+    font-size: 1.6rem;
+    line-height: 2rem;
+}
+.page-width--narrow li span{
+    font-weight: bold;
+}
+
 /*PAGES[END]*/
