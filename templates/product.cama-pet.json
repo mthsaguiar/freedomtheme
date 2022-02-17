@@ -19,13 +19,6 @@
             "picker_type": "button"
           }
         },
-        "7be7607a-d7ca-40a0-b924-9a6e89847ee1": {
-          "type": "text",
-          "settings": {
-            "text": "Você encontrará detalhes de cada tamanho logo abaixo!",
-            "text_style": "body"
-          }
-        },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {
@@ -42,7 +35,6 @@
         "title",
         "price",
         "variant_picker",
-        "7be7607a-d7ca-40a0-b924-9a6e89847ee1",
         "quantity_selector",
         "buy_buttons"
       ],
