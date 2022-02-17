@@ -407,6 +407,9 @@
                           </label>
                           
                         {%- endfor -%}
+                        {%- if option.name == 'Tamanho' -%}
+                            <a href="#{{section.settings.custom_table_id}}">{{section.settings.custom_table_icon}}</a>
+                        {%- endif -%}
                       </fieldset>
                   {%- endfor -%}
                   <script type="application/json">
@@ -1044,6 +1047,16 @@
       "unit": "px",
       "label": "t:sections.all.padding.padding_bottom",
       "default": 36
+    },
+    {
+      "type": "html",
+      "id": "custom_table_icon",
+      "label": "Custom Table Icon"
+    },
+    {
+      "type": "text",
+      "id": "custom_table_id",
+      "label": "Custom Table ID"
     }
   ]
 }
