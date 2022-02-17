@@ -59,7 +59,8 @@
           "settings": {
             "image_id": "shopify:\/\/shop_images\/Tabela_tamanhos_desktop-transp.png",
             "image_mobile_id": "shopify:\/\/shop_images\/Tabela_tamanhos_mobile_-transp.png",
-            "banner_url": ""
+            "banner_url": "",
+            "enable_link": false
           }
         },
         "a78dae9c-7310-4292-994f-28c625d1947e": {
@@ -67,6 +68,8 @@
           "settings": {
             "title_id": "O que há de melhor no mercado",
             "image_id": "shopify:\/\/shop_images\/Untitled_design.png",
+            "enable_text": false,
+            "text_content_id": "",
             "tab_title_1": "Veludo ultra macio",
             "tab_content_1": "<p>Forro construído com veludo ultra macio, tornando-o super confortável para seu pet.<\/p>",
             "tab_title_2": "Tamanho perfeito",
