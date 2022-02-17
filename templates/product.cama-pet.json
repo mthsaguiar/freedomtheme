@@ -66,6 +66,7 @@
           "type": "acc-image",
           "settings": {
             "title_id": "O que há de melhor no mercado",
+            "image_id": "shopify:\/\/shop_images\/Untitled_design.png",
             "tab_title_1": "Resistência nunca vista",
             "tab_content_1": "<p>Isso é só um teste<\/p>",
             "tab_title_2": "Titanium max",
