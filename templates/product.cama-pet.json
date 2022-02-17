@@ -8,6 +8,11 @@
           "settings": {
           }
         },
+        "4d78e022-0759-4a5f-b6ad-0f56844b5cc0": {
+          "type": "rating",
+          "settings": {
+          }
+        },
         "b757d9e4-ed40-4baa-8474-b919cb83dc21": {
           "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
           "settings": {
@@ -43,6 +48,7 @@
       },
       "block_order": [
         "title",
+        "4d78e022-0759-4a5f-b6ad-0f56844b5cc0",
         "b757d9e4-ed40-4baa-8474-b919cb83dc21",
         "price",
         "variant_picker",
