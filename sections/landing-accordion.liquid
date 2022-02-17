@@ -1,7 +1,7 @@
 {{ 'landing-accordion.css' | asset_url | stylesheet_tag }}
 
 <div class="accordion__section page-width">
-    <div id="accordion-{{section.id}}" class="accordion__section-title">
+    <div id="accordion-{{section.id}}" class="accordion__section-title active">
         <div class="accordion__icon-title">{{ section.settings.icon_id }}
             <h2>{{ section.settings.title_id }}</h2>
         </div>
@@ -22,6 +22,8 @@
                 {%- render 'accordion-image'
                 title_id: block.settings.title_id
                 image_id: block.settings.image_id
+                enable_text: block.settings.enable_text
+                text_content_id: block.settings.text_content_id
                 tab_title_1: block.settings.tab_title_1
                 tab_content_1:block.settings.tab_content_1
                 tab_title_2: block.settings.tab_title_2
@@ -55,7 +57,8 @@
     this.classList.toggle("active");
     var panel = this.nextElementSibling;
     var scrollHeight = panel.scrollHeight;
-    if (panel.style.height === scrollHeight+'px') {
+
+    if (panel.style.height === scrollHeight+'px' || panel.style.height == '') {
         panel.style.height = "0";
     } else {
         panel.style.height = scrollHeight+'px';
@@ -156,6 +159,17 @@
                     "type": "image_picker",
                     "id": "image_id",
                     "label": "Image"
+                },
+                {
+                    "type": "checkbox",
+                    "id": "enable_text",
+                    "label": "Use text instead tabs",
+                    "default": true
+                },
+                {
+                    "type": "richtext",
+                    "id": "text_content_id",
+                    "label": "Content"
                 },
                 {
                     "type": "text",
