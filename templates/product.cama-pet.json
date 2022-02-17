@@ -55,6 +55,7 @@
         "dac8060d-a6a1-4a9a-a97f-58ee7874c387": {
           "type": "banner",
           "settings": {
+            "image_id": "shopify:\/\/shop_images\/Tabela_tamanhos.png",
             "banner_url": ""
           }
         },
