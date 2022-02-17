@@ -117,7 +117,7 @@
     .header__heading-logo{
         width: 100px;
     }
-    .media>*:not(.zoom):not(.deferred-media__poster-button), .media model-viewer{
+    .banner .media>*:not(.zoom):not(.deferred-media__poster-button), .media model-viewer{
         display: none;
     }
 }

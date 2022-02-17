@@ -24,3 +24,9 @@
     font-size: 1.6rem;
     cursor: pointer;
 }
+
+@media screen and (max-width: 749px) {
+    .custom-banner__image img{
+        display: none;
+    }
+}
