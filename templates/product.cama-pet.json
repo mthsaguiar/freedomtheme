@@ -23,7 +23,7 @@
           "type": "text",
           "settings": {
             "text": "Você encontrará detalhes de cada tamanho logo abaixo!",
-            "text_style": "uppercase"
+            "text_style": "body"
           }
         },
         "quantity_selector": {
