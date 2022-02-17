@@ -100,7 +100,7 @@
             "title_id": "",
             "image_id": "shopify:\/\/shop_images\/Untitled_600_x_400_px_1.png",
             "enable_text": true,
-            "text_content_id": "",
+            "text_content_id": "<div class=\"rich-text__cotainer\">\n<h2 class=\"rich-text__title\">  Tecnologia MACIEZ ULTRA\n<\/h2>\n<div class=\"rich-text__content\">\nConta com tecnologia de ponta desenvolvida para aumentar a qualidade do sono dos animais!\n  <\/div>\n<\/div>",
             "tab_title_1": "",
             "tab_content_1": "",
             "tab_title_2": "",
