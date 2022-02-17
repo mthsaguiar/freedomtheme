@@ -469,6 +469,7 @@
               </div>
             </noscript>
           {%- when 'rating' -%}
+           HELLO{{product.metafields.reviews.rating.value}}
             {%- if product.metafields.reviews.rating.value != blank -%}
               {% liquid
                assign rating_decimal = 0

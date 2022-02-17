@@ -488,7 +488,7 @@ fieldset.product-form__input .form__label{
     margin: 0;
 }
 .product__info-wrapper .product__title{
-    margin-bottom: 0.5rem;
+    margin-bottom: 0;
     line-height: 4rem;
     font-size: 2.6rem;
 }
@@ -555,8 +555,12 @@ body .jdgm-histogram.jdgm-temp-hidden{
 .spr-starrating.spr-summary-starrating{
     display: block;
 }
+
 .spr-stars svg path{
     fill: #ffc52c;
+}
+.spr-icon-star:before{
+    color: #ffc52c;
 }
 .spr-header-title{
     display: none;

@@ -17,9 +17,10 @@
 .accordion-image__img-content .accordion svg{
     margin-left: auto;
     transition: 0.5s all ease-in-out;
+    transform: rotate(180deg);
 }
 .accordion-image__img-content .accordion.active svg{
-    transform: rotate(180deg);
+    transform: rotate(0deg);
 }
 .accordion-image__img-content .accordion::after{
     content: '';
