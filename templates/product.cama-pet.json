@@ -54,21 +54,6 @@
     "1643996280ff154122": {
       "type": "landing-accordion",
       "blocks": {
-        "a78dae9c-7310-4292-994f-28c625d1947e": {
-          "type": "acc-image",
-          "settings": {
-            "title_id": "O que há de melhor no mercado",
-            "image_id": "shopify:\/\/shop_images\/Untitled_design.png",
-            "enable_text": false,
-            "text_content_id": "",
-            "tab_title_1": "Veludo ultra macio",
-            "tab_content_1": "<p>Forro construído com veludo ultra macio, tornando-o super confortável para seu pet.<\/p>",
-            "tab_title_2": "Tamanho perfeito",
-            "tab_content_2": "<p>O tamanho e o formato é foi desenvolvido para se encaixar perfeitamente nos ambientes da casa.<\/p>",
-            "tab_title_3": "Super resistência",
-            "tab_content_3": "<p>Resistência e qualidade para duração de longo prazo.<\/p>"
-          }
-        },
         "889eb850-4a5c-456f-ad37-0faaf57fcd1c": {
           "type": "acc-image",
           "settings": {
@@ -101,6 +86,21 @@
             "enable_link": false
           }
         },
+        "a78dae9c-7310-4292-994f-28c625d1947e": {
+          "type": "acc-image",
+          "settings": {
+            "title_id": "O que há de melhor no mercado",
+            "image_id": "shopify:\/\/shop_images\/Untitled_design.png",
+            "enable_text": false,
+            "text_content_id": "",
+            "tab_title_1": "Veludo ultra macio",
+            "tab_content_1": "<p>Forro construído com veludo ultra macio, tornando-o super confortável para seu pet.<\/p>",
+            "tab_title_2": "Tamanho perfeito",
+            "tab_content_2": "<p>O tamanho e o formato é foi desenvolvido para se encaixar perfeitamente nos ambientes da casa.<\/p>",
+            "tab_title_3": "Super resistência",
+            "tab_content_3": "<p>Resistência e qualidade para duração de longo prazo.<\/p>"
+          }
+        },
         "2fd261f7-0fcb-4d37-8df3-7352e45d39f5": {
           "type": "banner",
           "settings": {
@@ -112,10 +112,10 @@
         }
       },
       "block_order": [
-        "a78dae9c-7310-4292-994f-28c625d1947e",
         "889eb850-4a5c-456f-ad37-0faaf57fcd1c",
         "5e694671-bfb2-465f-9d56-511a923b5ed0",
         "dac8060d-a6a1-4a9a-a97f-58ee7874c387",
+        "a78dae9c-7310-4292-994f-28c625d1947e",
         "2fd261f7-0fcb-4d37-8df3-7352e45d39f5"
       ],
       "settings": {
