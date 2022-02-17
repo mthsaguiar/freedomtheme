@@ -3,20 +3,21 @@
 {% assign paddingValueMobile = 1| divided_by: image_mobile_id.aspect_ratio | round: 2 | times: 100%}
 
 {%- style -%}
-    .custom-banner__image{
-        padding-bottom: {{paddingValue}}%
-    }
+
     @media screen and (max-width: 749px) {
-        #banner-{{section.id}} {
+        body #banner-{{block_id}}.custom-banner__image {
             padding-bottom: {{paddingValueMobile}}%;
             background-image: url('{{ image_mobile_id | img_url: '800x' }}');
             background-position: center;
             background-repeat: no-repeat;
             background-size: contain;
         }
-        #banner-{{section.id}} img{
+        #banner-{{block_id}} img{
             z-index: -1
         }
+    }
+    #banner-{{block_id}}.custom-banner__image{
+        padding-bottom: {{paddingValue}}%
     }
 {%- endstyle -%}
 
@@ -24,7 +25,7 @@
     {%- if enable_link == true -%}
     <a href="{{ banner_url }}">
     {%- endif -%}
-    <div id="banner-{{section.id}}" class="custom-banner__image">
+    <div id="banner-{{block_id}}" class="custom-banner__image">
         <img  srcset="{%- if image_id.width >= 375 -%}{{ image_id | img_url: '375x' }} 375w,{%- endif -%}
               {%- if image_id.width >= 750 -%}{{ image_id | img_url: '750x' }} 750w,{%- endif -%}
               {%- if image_id.width >= 1100 -%}{{ image_id | img_url: '1100x' }} 1100w,{%- endif -%}

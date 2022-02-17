@@ -13,13 +13,16 @@
             {%- when '@app' -%}
                 {% render block %}
             {%- when 'banner' -%}
-                {%- render 'custom-banner' image_id: block.settings.image_id 
+                {%- render 'custom-banner' 
+                block_id: block.id
+                image_id: block.settings.image_id 
                 image_mobile_id: block.settings.image_mobile_id
                 banner_url: block.settings.banner_url
                 enable_link: block.settings.enable_link
                 -%}
             {%- when 'acc-image' -%}
                 {%- render 'accordion-image'
+                
                 title_id: block.settings.title_id
                 image_id: block.settings.image_id
                 enable_text: block.settings.enable_text

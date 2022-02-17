@@ -76,6 +76,9 @@
     overflow: hidden;
     transition: 0.2s all ease-in-out ;
 }
+.accordion-image__img-content .panel p{
+    font-weight: bold;
+}
 
 @media screen and (max-width: 749px) {
     .accordion__image{
