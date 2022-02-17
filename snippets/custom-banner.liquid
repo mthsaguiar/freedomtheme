@@ -21,7 +21,9 @@
 {%- endstyle -%}
 
 <div class="custom-banner">
+    {%- if enable_link == true -%}
     <a href="{{ banner_url }}">
+    {%- endif -%}
     <div id="banner-{{section.id}}" class="custom-banner__image">
         <img  srcset="{%- if image_id.width >= 375 -%}{{ image_id | img_url: '375x' }} 375w,{%- endif -%}
               {%- if image_id.width >= 750 -%}{{ image_id | img_url: '750x' }} 750w,{%- endif -%}
@@ -36,5 +38,7 @@
         alt="{{ image_id.alt | escape }}" width="{{ image_id.width }}"
         height="{{ image_id.width | divided_by: image_id.aspect_ratio }}">
      </div>
+     {% if enable_link == true %}
     </a>
+    {%- endif -%}
 </div>

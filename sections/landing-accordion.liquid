@@ -16,6 +16,7 @@
                 {%- render 'custom-banner' image_id: block.settings.image_id 
                 image_mobile_id: block.settings.image_mobile_id
                 banner_url: block.settings.banner_url
+                enable_link: block.settings.enable_link
                 -%}
             {%- when 'acc-image' -%}
                 {%- render 'accordion-image'
@@ -133,6 +134,12 @@
                     "type": "url",
                     "id": "banner_url",
                     "label": "Banner url"
+                },
+                {
+                    "type": "checkbox",
+                    "id": "enable_link",
+                    "label": "Enable Link",
+                    "default": false
                 }
             ]
         },
