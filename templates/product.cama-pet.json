@@ -114,6 +114,7 @@
           "type": "banner",
           "settings": {
             "image_id": "shopify:\/\/shop_images\/Untitled_800_x_400_px_700_x_400_px_1.png",
+            "image_mobile_id": "shopify:\/\/shop_images\/Untitled_800_x_400_px_700_x_400_px_400_x_300_px.png",
             "banner_url": "",
             "enable_link": false
           }
