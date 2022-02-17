@@ -50,7 +50,7 @@
 .rich-text__cotainer{
     margin: 2rem;
     padding: 2rem;
-    box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+    box-shadow: rgb(0 0 0 / 2%) 0px 1px 3px 0px, rgb(27 31 35 / 15%) 0px 0px 0px 1px;
 }
 .rich-text__title{
     font-weight: bold;

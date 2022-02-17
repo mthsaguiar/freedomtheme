@@ -50,7 +50,7 @@
     padding-top: 324px;
     position: relative;
     overflow: hidden;
-    box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+    box-shadow: rgb(0 0 0 / 2%) 0px 1px 3px 0px, rgb(27 31 35 / 15%) 0px 0px 0px 1px;
 }
 .accordion-image__img-content{
     width: 55%;
