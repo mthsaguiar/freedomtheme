@@ -101,20 +101,20 @@
             "tab_content_3": "<p>Resistência e qualidade para duração de longo prazo.<\/p>"
           }
         },
-        "2fd261f7-0fcb-4d37-8df3-7352e45d39f5": {
-          "type": "banner",
-          "settings": {
-            "image_id": "shopify:\/\/shop_images\/Voce_pode_lavar.png",
-            "image_mobile_id": "shopify:\/\/shop_images\/Voce_pode_lavar_400_x_500_px_400_x_300_px.png",
-            "banner_url": "",
-            "enable_link": false
-          }
-        },
         "0f39445f-83e9-4396-81e7-fd1920486cd5": {
           "type": "banner",
           "settings": {
             "image_id": "shopify:\/\/shop_images\/Untitled_800_x_400_px_700_x_400_px_1.png",
             "image_mobile_id": "shopify:\/\/shop_images\/Untitled_800_x_400_px_700_x_400_px_400_x_300_px_1.png",
+            "banner_url": "",
+            "enable_link": false
+          }
+        },
+        "2fd261f7-0fcb-4d37-8df3-7352e45d39f5": {
+          "type": "banner",
+          "settings": {
+            "image_id": "shopify:\/\/shop_images\/Voce_pode_lavar.png",
+            "image_mobile_id": "shopify:\/\/shop_images\/Voce_pode_lavar_400_x_500_px_400_x_300_px.png",
             "banner_url": "",
             "enable_link": false
           }
@@ -125,8 +125,8 @@
         "5e694671-bfb2-465f-9d56-511a923b5ed0",
         "dac8060d-a6a1-4a9a-a97f-58ee7874c387",
         "a78dae9c-7310-4292-994f-28c625d1947e",
-        "2fd261f7-0fcb-4d37-8df3-7352e45d39f5",
-        "0f39445f-83e9-4396-81e7-fd1920486cd5"
+        "0f39445f-83e9-4396-81e7-fd1920486cd5",
+        "2fd261f7-0fcb-4d37-8df3-7352e45d39f5"
       ],
       "settings": {
         "title_id": "INFORMAÇÕES DO PRODUTO",
