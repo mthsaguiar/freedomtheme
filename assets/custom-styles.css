@@ -614,6 +614,9 @@ body .jdgm-histogram.jdgm-temp-hidden{
     .spr-header .spr-summary{
         justify-content: flex-start;
     }
+    .product__media-list .media{
+        border-radius: 2rem;
+    }
 }
 /*Shopify reviews[end]*/
  @media screen and (max-width: 749px) {
