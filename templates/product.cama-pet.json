@@ -56,6 +56,7 @@
           "type": "banner",
           "settings": {
             "image_id": "shopify:\/\/shop_images\/Tabela_tamanhos.png",
+            "image_mobile_id": "shopify:\/\/shop_images\/Tabela_tamanhos_mobile.png",
             "banner_url": ""
           }
         },
