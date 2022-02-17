@@ -10,6 +10,7 @@
         },
         "4d78e022-0759-4a5f-b6ad-0f56844b5cc0": {
           "type": "rating",
+          "disabled": true,
           "settings": {
           }
         },
