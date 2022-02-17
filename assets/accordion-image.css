@@ -79,7 +79,15 @@
 .accordion-image__img-content .panel p{
     font-weight: bold;
 }
-
+.accordion-image__text-content{
+    width: 55%;
+    padding-left: 2rem;
+}
+.rich-text__content{
+    color: #030d4f;
+    text-align: center;
+    font-weight: bold;
+}
 @media screen and (max-width: 749px) {
     .accordion__image{
         flex-direction: column;
@@ -90,5 +98,13 @@
     }
     .accordion-image__img-content{
         padding-left: 0;
+    }
+    .accordion__image .accordion-image__text-content{
+        width: auto;
+        padding-left: 0;
+        padding-top: 2rem;
+    }
+    .accordion__image .rich-text__cotainer{
+        margin: 0 auto;
     }
 }

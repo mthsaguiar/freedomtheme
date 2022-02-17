@@ -1,4 +1,5 @@
 {{ 'landing-accordion.css' | asset_url | stylesheet_tag }}
+<script src="{{ 'accordion-image.js' | asset_url }}" defer="defer"></script>
 
 <div class="accordion__section page-width">
     <div id="accordion-{{section.id}}" class="accordion__section-title active">
@@ -46,6 +47,17 @@
                         {{ block.settings.content_id }}
                     </div>
                 </div>
+            {%- when 'uvp_section'-%}
+             {%- render 'accordion-uvp' 
+                uvp_icon_1: block.settings.uvp_icon_1
+                uvp_text_1: block.settings.uvp_text_1
+                uvp_icon_2: block.settings.uvp_icon_2
+                uvp_text_2: block.settings.uvp_text_2
+                uvp_icon_3: block.settings.uvp_icon_3
+                uvp_text_3: block.settings.uvp_text_3
+                uvp_icon_4: block.settings.uvp_icon_4
+                uvp_text_4: block.settings.uvp_text_4
+             -%}
           {%- endcase -%}
     {%- endfor -%}
     </div>
@@ -120,6 +132,52 @@
                   "id": "content_id",
                   "label": "Content"
                }
+           ]
+        },
+        {
+           "type": "uvp_section",
+           "name": "UVP Section",
+           "settings": [
+                {
+                    "type":"html",
+                    "id":"uvp_icon_1",
+                    "label":"UVP Icon(svg) 01"
+                },
+                {
+                    "type":"text",
+                    "id":"uvp_text_1",
+                    "label":"UVP Text 01"
+                },
+                {
+                    "type":"html",
+                    "id":"uvp_icon_2",
+                    "label":"UVP Icon(svg) 02"
+                },
+                {
+                    "type":"text",
+                    "id":"uvp_text_2",
+                    "label":"UVP Text 02"
+                },
+                {
+                    "type":"html",
+                    "id":"uvp_icon_3",
+                    "label":"UVP Icon(svg) 03"
+                },
+                {
+                    "type":"text",
+                    "id":"uvp_text_3",
+                    "label":"UVP Text 03"
+                },
+                {
+                    "type":"html",
+                    "id":"uvp_icon_4",
+                    "label":"UVP Icon(svg) 04"
+                },
+                {
+                    "type":"text",
+                    "id":"uvp_text_4",
+                    "label":"UVP Text 04"
+                }    
            ]
         },
         {
