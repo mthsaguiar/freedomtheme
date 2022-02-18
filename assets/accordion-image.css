@@ -79,6 +79,9 @@
 }
 .accordion-image__img-content .panel p{
     font-weight: bold;
+    font-size: 1.75rem;
+    color: #030d4f;
+    line-height: 2rem;
 }
 .accordion-image__text-content{
     width: 55%;
@@ -86,8 +89,10 @@
 }
 .rich-text__content{
     color: #030d4f;
-    text-align: center;
-    font-weight: bold;
+    text-align: left;
+    padding: 0 2rem;
+    font-size: 1.75rem;
+    line-height: 2rem;
 }
 @media screen and (max-width: 749px) {
     .accordion__image{
