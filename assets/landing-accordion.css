@@ -47,8 +47,8 @@
     color: #323232;
     margin: 0;
     line-height: 2rem;
-    font-size: 1.4rem;
-    padding: O 2rem;
+    font-size: 1.75rem;
+    padding: 0 2rem;
 }
 .rich-text__cotainer{
     margin: 2rem;
@@ -58,7 +58,7 @@
 .rich-text__title{
     font-weight: bold;
     text-align: center;
-    font-size: 2.4rem;
+    font-size: 2.2rem;
     margin: 0;
     padding-bottom: 2rem;
     color: #323232;
@@ -72,5 +72,8 @@
     }
     .accordion__section-title{
         padding: 2.5rem;
+    }
+    .rich-text__title{
+        font-size: 2.6rem;
     }
 }
