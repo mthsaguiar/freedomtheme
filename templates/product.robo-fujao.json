@@ -46,7 +46,9 @@
         "hide_variants": false,
         "enable_video_looping": false,
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 36,
+        "custom_table_icon": "",
+        "custom_table_id": ""
       }
     },
     "1643996280ff154122": {
@@ -54,14 +56,19 @@
       "blocks": {
         "dac8060d-a6a1-4a9a-a97f-58ee7874c387": {
           "type": "banner",
+          "disabled": true,
           "settings": {
-            "banner_url": ""
+            "banner_url": "",
+            "enable_link": false
           }
         },
         "a78dae9c-7310-4292-994f-28c625d1947e": {
           "type": "acc-image",
           "settings": {
             "title_id": "O que há de melhor no mercado",
+            "image_id": "shopify:\/\/shop_images\/baby-brincando.png",
+            "enable_text": false,
+            "text_content_id": "",
             "tab_title_1": "Resistência nunca vista",
             "tab_content_1": "<p>Isso é só um teste<\/p>",
             "tab_title_2": "Titanium max",
