@@ -72,11 +72,11 @@
     "1643996280ff154122": {
       "type": "landing-accordion",
       "blocks": {
-        "62ad8d92-7d6c-4f29-9bf6-7c1970533f93": {
+        "8d78dda8-2b1d-4ad3-ae04-66e562e17729": {
           "type": "banner",
           "settings": {
-            "image_id": "shopify:\/\/shop_images\/Banner_garrafa_desk.png",
-            "image_mobile_id": "shopify:\/\/shop_images\/Banner_garrafa_mobile.png",
+            "image_id": "shopify:\/\/shop_images\/banner_garrafa_2_desk.png",
+            "image_mobile_id": "shopify:\/\/shop_images\/banner_garrafa_2_mobile.png",
             "banner_url": "",
             "enable_link": false
           }
@@ -87,11 +87,11 @@
             "padding_step": 30
           }
         },
-        "8d78dda8-2b1d-4ad3-ae04-66e562e17729": {
+        "62ad8d92-7d6c-4f29-9bf6-7c1970533f93": {
           "type": "banner",
           "settings": {
-            "image_id": "shopify:\/\/shop_images\/banner_garrafa_2_desk.png",
-            "image_mobile_id": "shopify:\/\/shop_images\/banner_garrafa_2_mobile.png",
+            "image_id": "shopify:\/\/shop_images\/Banner_garrafa_desk.png",
+            "image_mobile_id": "shopify:\/\/shop_images\/Banner_garrafa_mobile.png",
             "banner_url": "",
             "enable_link": false
           }
@@ -113,9 +113,9 @@
         }
       },
       "block_order": [
-        "62ad8d92-7d6c-4f29-9bf6-7c1970533f93",
-        "121397fc-978a-4a04-b3b7-0afdefb4c49a",
         "8d78dda8-2b1d-4ad3-ae04-66e562e17729",
+        "121397fc-978a-4a04-b3b7-0afdefb4c49a",
+        "62ad8d92-7d6c-4f29-9bf6-7c1970533f93",
         "973c4b61-e1e5-43f5-bf89-cb8838dc909f",
         "bbbefa53-704a-4e96-88dd-5bc53a7a7102"
       ],
