@@ -89,11 +89,21 @@
             "banner_url": "",
             "enable_link": false
           }
+        },
+        "bbbefa53-704a-4e96-88dd-5bc53a7a7102": {
+          "type": "banner",
+          "settings": {
+            "image_id": "shopify:\/\/shop_images\/banner_medida_1.png",
+            "image_mobile_id": "shopify:\/\/shop_images\/banner_medida_mobile.png",
+            "banner_url": "",
+            "enable_link": false
+          }
         }
       },
       "block_order": [
         "62ad8d92-7d6c-4f29-9bf6-7c1970533f93",
-        "8d78dda8-2b1d-4ad3-ae04-66e562e17729"
+        "8d78dda8-2b1d-4ad3-ae04-66e562e17729",
+        "bbbefa53-704a-4e96-88dd-5bc53a7a7102"
       ],
       "settings": {
         "title_id": "INFORMAÇÕES DO PRODUTO",
