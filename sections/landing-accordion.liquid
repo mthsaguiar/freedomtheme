@@ -58,6 +58,8 @@
                 uvp_icon_4: block.settings.uvp_icon_4
                 uvp_text_4: block.settings.uvp_text_4
              -%}
+            {%- when 'padding_section'-%}
+                <div style="padding-top: {{ section.settings.padding_step }}px"></div>
           {%- endcase -%}
     {%- endfor -%}
     </div>
@@ -106,6 +108,22 @@
     "blocks":[
         {
             "type": "@app"
+        },
+        {
+           "type": "padding_section",
+           "name": "Padding Section",
+           "settings": [
+                {
+                    "type": "range",
+                    "id": "padding_step",
+                    "min": 0,
+                    "max": 300,
+                    "step": 10,
+                    "unit": "px",
+                    "default": 0,
+                    "label":"Padding"
+                }
+           ]
         },
         {
            "type": "custom_html",
