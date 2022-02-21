@@ -84,7 +84,7 @@
         "121397fc-978a-4a04-b3b7-0afdefb4c49a": {
           "type": "padding_section",
           "settings": {
-            "padding_step": 20
+            "padding_step": 30
           }
         },
         "8d78dda8-2b1d-4ad3-ae04-66e562e17729": {
@@ -94,6 +94,12 @@
             "image_mobile_id": "shopify:\/\/shop_images\/banner_garrafa_2_mobile.png",
             "banner_url": "",
             "enable_link": false
+          }
+        },
+        "973c4b61-e1e5-43f5-bf89-cb8838dc909f": {
+          "type": "padding_section",
+          "settings": {
+            "padding_step": 30
           }
         },
         "bbbefa53-704a-4e96-88dd-5bc53a7a7102": {
@@ -110,6 +116,7 @@
         "62ad8d92-7d6c-4f29-9bf6-7c1970533f93",
         "121397fc-978a-4a04-b3b7-0afdefb4c49a",
         "8d78dda8-2b1d-4ad3-ae04-66e562e17729",
+        "973c4b61-e1e5-43f5-bf89-cb8838dc909f",
         "bbbefa53-704a-4e96-88dd-5bc53a7a7102"
       ],
       "settings": {
