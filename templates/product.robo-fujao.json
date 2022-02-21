@@ -56,8 +56,9 @@
       "blocks": {
         "dac8060d-a6a1-4a9a-a97f-58ee7874c387": {
           "type": "banner",
-          "disabled": true,
           "settings": {
+            "image_id": "shopify:\/\/shop_images\/banner_robo_1_desk.png",
+            "image_mobile_id": "shopify:\/\/shop_images\/banner_robo_1_deskmobile.png",
             "banner_url": "",
             "enable_link": false
           }
