@@ -34,7 +34,7 @@
       "type": "custom-featured-collection",
       "settings": {
         "title_id": "produtos em destaque",
-        "collection_id": "t-shirt"
+        "collection_id": "featured-collection"
       }
     },
     "1642615847cfd5785a": {
