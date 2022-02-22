@@ -345,6 +345,10 @@
 }
 .product__media.media {
     padding-bottom: 424px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.product__media.media img{
+    object-fit: contain;
 }
 .grid__item .product__info-container .price--on-sale .price-item--regular{
     font-size: 1.4rem;
@@ -355,7 +359,7 @@
 }
 .product__title {
     font-weight: normal;
-    text-transform: uppercase;
+    text-transform: none;
     color: #444444;
     margin: 0;
 }

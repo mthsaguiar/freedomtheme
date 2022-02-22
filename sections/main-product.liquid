@@ -397,7 +397,7 @@
                           >
                           <label {% if option.name == 'Modelo' %} class="variant__model" {% endif %} for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}">
                             {%- if option.name == 'Modelo' -%}
-                            {%- assign image_name = value | append: '-variant.png' -%}
+                            {%- assign image_name = value | remove: ' ' | append: '-variant.png' -%}
                             {% assign imge__url = image_name | asset_img_url: 'small'  %}
                             <span style="background-image: url('{{imge__url}}')" class="variant__model-span"></span>
                             {%- else -%}
