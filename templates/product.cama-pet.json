@@ -143,6 +143,20 @@
             "title_id": "<p>Informações importantes<\/p>",
             "content_id": "<p><strong>• <\/strong>Devido a medição ser realizada manualmente, pode haver erros entre 2-4 centímetros<br\/><br\/><strong>•<\/strong> Diferentes telas podem causar persepções distintas nas tonalidades das cores<br\/><br\/><strong>•<\/strong> O produto é enviado em uma embalagem de forma comprimida. Logo após o recebimento, eles não terão o formato exato das fotos. Eles voltarão ao formato normal em alguns dias.<\/p>"
           }
+        },
+        "3f5ecaf2-dcf1-44fe-8cf0-39b6e28da015": {
+          "type": "acc-image",
+          "settings": {
+            "title_id": "",
+            "enable_text": false,
+            "text_content_id": "",
+            "tab_title_1": "tes",
+            "tab_content_1": "<p>tes<\/p>",
+            "tab_title_2": "tes",
+            "tab_content_2": "<p>tes<\/p>",
+            "tab_title_3": "tes",
+            "tab_content_3": "<p>tes<\/p>"
+          }
         }
       },
       "block_order": [
@@ -152,7 +166,8 @@
         "a78dae9c-7310-4292-994f-28c625d1947e",
         "0f39445f-83e9-4396-81e7-fd1920486cd5",
         "2fd261f7-0fcb-4d37-8df3-7352e45d39f5",
-        "ad417445-92ab-48f9-aec5-b6792153c56c"
+        "ad417445-92ab-48f9-aec5-b6792153c56c",
+        "3f5ecaf2-dcf1-44fe-8cf0-39b6e28da015"
       ],
       "settings": {
         "title_id": "INFORMAÇÕES DO PRODUTO",
