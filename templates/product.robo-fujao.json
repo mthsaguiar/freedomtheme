@@ -84,12 +84,27 @@
             "title_id": "<p>Informações importantes<\/p>",
             "content_id": "<p><strong>•<\/strong> Três pilhas AAA são necessárias para o funcionamento do <strong>robozinho. <\/strong>O produto possui uma fita de tecido para facilitar a remoção das pilhas, quando necessário.<br\/><br\/><strong>•<\/strong> Pressione em cima do <strong>robozinho <\/strong>para ligar. Uma luz indicará que o brinquedo está ligado.<br\/><\/p>"
           }
+        },
+        "eb92d50d-ced4-4caa-a0cb-d03dbfb118f2": {
+          "type": "acc-image",
+          "settings": {
+            "title_id": "",
+            "enable_text": false,
+            "text_content_id": "",
+            "tab_title_1": "Test",
+            "tab_content_1": "<p>test<\/p>",
+            "tab_title_2": "test",
+            "tab_content_2": "<p>test<\/p>",
+            "tab_title_3": "test",
+            "tab_content_3": "<p>test<\/p>"
+          }
         }
       },
       "block_order": [
         "dac8060d-a6a1-4a9a-a97f-58ee7874c387",
         "a78dae9c-7310-4292-994f-28c625d1947e",
-        "5e694671-bfb2-465f-9d56-511a923b5ed0"
+        "5e694671-bfb2-465f-9d56-511a923b5ed0",
+        "eb92d50d-ced4-4caa-a0cb-d03dbfb118f2"
       ],
       "settings": {
         "title_id": "DESCRIÇÃO DO PRODUTO",
