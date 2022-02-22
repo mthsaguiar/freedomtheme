@@ -16,10 +16,6 @@
     padding-top: 1rem;
 }
 
-.product-card__img-wrapper {
-    padding-bottom: 200px;
-    position: relative;
-}
 
 .product-card__img-wrapper img {
     width: auto;
@@ -30,10 +26,11 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+    border-radius: 1rem;
 }
 
 .product-card__img-wrapper {
-    padding-bottom: 124px;
+    padding-bottom: 180px;
     position: relative;
 }
 
