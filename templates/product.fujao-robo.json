@@ -86,8 +86,8 @@
           "settings": {
             "title_id": "O que há de melhor no mercado",
             "image_id": "shopify:\/\/shop_images\/baby-brincando.png",
-            "enable_text": false,
-            "text_content_id": "",
+            "enable_text": true,
+            "text_content_id": "<style>\n.accordion-image__list{\n padding: 0 0 0 3rem;\n\n}\n@media screen and (max-width: 749px){\n.accordion-image__list{\n padding: 0;\n }\n}\n<\/style>\n<ul class=\"accordion-image__list\">\n<li>\n<h3><b>Sensor infravermelho: <\/b><\/h3>\n<span>O robô escapa quando alguém enconsta perto. A sua criança ou seu pet podem brincar até mesmo sozinhos!<\/span>\n<\/li>\n<li>\n<h3><b>Qualidade na fabricação: <\/b><\/h3>\n<span>Material de alta qualidade, sendo um plástico seguro e não tóxico para seu bebê ou pet. Livre de BPA e livre de Lead. Feito com amor.<\/span>\n<\/li>\n<li>\n<h3><b>Pura diversão: <\/b><\/h3>\n<span>Conta com sensor infravermelho que detecta aproximação e corre em alta velocidade.<\/span>\n<\/li>\n<\/ul>",
             "tab_title_1": "Sensor infravermelho",
             "tab_content_1": "<p>O robô escapa quando alguém enconsta perto. A sua criança ou seu pet podem brincar até mesmo sozinhos!<\/p>",
             "tab_title_2": "Qualidade na fabricação",
