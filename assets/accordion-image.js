@@ -1,7 +1,6 @@
 window.addEventListener('load', ()=>{
     let acc2 = document.querySelectorAll(".accordion-image__img-content .accordion");
     let i;
-    console.log('AAAAAAAAAAA');
     for (i = 0; i < acc2.length; i++) {
     acc2[i].addEventListener("click", function() {
         this.classList.toggle("active");

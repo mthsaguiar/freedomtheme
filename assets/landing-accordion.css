@@ -14,7 +14,7 @@
     display: flex;
 }
 .accordion__section-tab{
-    overflow: scroll;
+    overflow: hidden;
     transition: 0.5s all ease-in-out ;
     margin-top: 1rem;
 }
