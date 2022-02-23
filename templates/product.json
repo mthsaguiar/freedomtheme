@@ -63,6 +63,15 @@
             "enable_link": false
           }
         },
+        "70b3ed67-fa34-4dbc-aa1c-fbb61acfcb5d": {
+          "type": "banner",
+          "settings": {
+            "image_id": "shopify:\/\/shop_images\/Peitoral_ajustavel.png",
+            "image_mobile_id": "shopify:\/\/shop_images\/Peitoral_ajustavel_mobile.png",
+            "banner_url": "",
+            "enable_link": false
+          }
+        },
         "a78dae9c-7310-4292-994f-28c625d1947e": {
           "type": "acc-image",
           "settings": {
@@ -87,6 +96,7 @@
       },
       "block_order": [
         "dac8060d-a6a1-4a9a-a97f-58ee7874c387",
+        "70b3ed67-fa34-4dbc-aa1c-fbb61acfcb5d",
         "a78dae9c-7310-4292-994f-28c625d1947e",
         "5e694671-bfb2-465f-9d56-511a923b5ed0"
       ],
