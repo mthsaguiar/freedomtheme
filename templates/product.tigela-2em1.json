@@ -110,20 +110,6 @@
             "banner_url": "",
             "enable_link": false
           }
-        },
-        "19312640-3efb-406c-982e-1c5e2ff81203": {
-          "type": "acc-image",
-          "settings": {
-            "title_id": "",
-            "enable_text": false,
-            "text_content_id": "",
-            "tab_title_1": "test",
-            "tab_content_1": "<p>test<\/p>",
-            "tab_title_2": "test",
-            "tab_content_2": "<p>test<\/p>",
-            "tab_title_3": "test",
-            "tab_content_3": "<p>test<\/p>"
-          }
         }
       },
       "block_order": [
@@ -131,8 +117,7 @@
         "121397fc-978a-4a04-b3b7-0afdefb4c49a",
         "62ad8d92-7d6c-4f29-9bf6-7c1970533f93",
         "973c4b61-e1e5-43f5-bf89-cb8838dc909f",
-        "bbbefa53-704a-4e96-88dd-5bc53a7a7102",
-        "19312640-3efb-406c-982e-1c5e2ff81203"
+        "bbbefa53-704a-4e96-88dd-5bc53a7a7102"
       ],
       "settings": {
         "title_id": "INFORMAÇÕES DO PRODUTO",
