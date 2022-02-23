@@ -115,7 +115,7 @@
           "type": "acc-image",
           "settings": {
             "title_id": "",
-            "enable_text": true,
+            "enable_text": false,
             "text_content_id": "",
             "tab_title_1": "test",
             "tab_content_1": "<p>test<\/p>",
