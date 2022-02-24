@@ -58,7 +58,22 @@
           "type": "rich_text",
           "settings": {
             "title_id": "<p>A coleira que seu dog está esperando<\/p>",
-            "content_id": "<p>A <strong>coleira peitoral ultra comfort <\/strong>torna a vida do seu cachorro mais fácil. O design é pensado na facilidade e e rapidez na hora de colocar no pet. A alta desnsidade das tiras e a reflexão no escuro torna o passeio bem mais seguro.<br\/>A coleira conta com duas opções para a utilização da guia: <strong>frontal e superior<\/strong>. O suporte de guia frontal é indicada para cães que não estão acostumados, e acabam puxando muito o seu acompanhante. Isso também faz com que o cão não desenvolva problemas que podem ser causados por puxar e resistir muito durante os passeios.<\/p>"
+            "content_id": "<p>A <strong>coleira peitoral ultra comfort <\/strong>torna a vida do seu cachorro mais fácil. O design é pensado na facilidade e e rapidez na hora de colocar no pet. A alta desnsidade das tiras e a reflexão no escuro torna o passeio bem mais seguro.<\/p>"
+          }
+        },
+        "47c8136c-5203-42ed-aa9d-62c5c3f96e72": {
+          "type": "acc-image",
+          "settings": {
+            "title_id": "",
+            "image_id": "shopify:\/\/shop_images\/dog.png",
+            "enable_text": true,
+            "text_content_id": "<style>\n.custom-dog-content{\ntext-align: left;\n    color: #323232;\n    margin: 0;\n    line-height: 2.25rem;\n    font-size: 1.75rem;\n}\n<\/style>\n<div class=\"custom-dog-content\">\nA coleira conta com duas opções para a utilização da guia: <b>frontal e superior<\/b>. O suporte de guia frontal é indicada para cães que não estão acostumados, e acabam puxando muito o seu acompanhante. Isso também faz com que o cão não desenvolva problemas que podem ser causados por puxar e resistir muito durante os passeios.\n<\/div>",
+            "tab_title_1": "",
+            "tab_content_1": "",
+            "tab_title_2": "",
+            "tab_content_2": "",
+            "tab_title_3": "",
+            "tab_content_3": ""
           }
         },
         "b41d17ab-bd60-4691-adf2-b5ea7008eb0c": {
@@ -87,29 +102,14 @@
             "banner_url": "",
             "enable_link": false
           }
-        },
-        "47c8136c-5203-42ed-aa9d-62c5c3f96e72": {
-          "type": "acc-image",
-          "settings": {
-            "title_id": "",
-            "image_id": "shopify:\/\/shop_images\/dog.png",
-            "enable_text": true,
-            "text_content_id": "<style>\n.custom-dog-content{\ntext-align: left;\n    color: #323232;\n    margin: 0;\n    line-height: 2.25rem;\n    font-size: 1.75rem;\n}\n<\/style>\n<div class=\"custom-dog-content\">\nA coleira conta com duas opções para a utilização da guia: <b>frontal e superior<\/b>. O suporte de guia frontal é indicada para cães que não estão acostumados, e acabam puxando muito o seu acompanhante. Isso também faz com que o cão não desenvolva problemas que podem ser causados por puxar e resistir muito durante os passeios.\n<\/div>",
-            "tab_title_1": "",
-            "tab_content_1": "",
-            "tab_title_2": "",
-            "tab_content_2": "",
-            "tab_title_3": "",
-            "tab_content_3": ""
-          }
         }
       },
       "block_order": [
         "5e694671-bfb2-465f-9d56-511a923b5ed0",
+        "47c8136c-5203-42ed-aa9d-62c5c3f96e72",
         "b41d17ab-bd60-4691-adf2-b5ea7008eb0c",
         "dac8060d-a6a1-4a9a-a97f-58ee7874c387",
-        "313f1ac0-df4f-429c-9d66-23bffabaf6bf",
-        "47c8136c-5203-42ed-aa9d-62c5c3f96e72"
+        "313f1ac0-df4f-429c-9d66-23bffabaf6bf"
       ],
       "settings": {
         "title_id": "DESCRIÇÃO DO PRODUTO",
