@@ -72,6 +72,15 @@
             "enable_link": false
           }
         },
+        "313f1ac0-df4f-429c-9d66-23bffabaf6bf": {
+          "type": "banner",
+          "settings": {
+            "image_id": "shopify:\/\/shop_images\/Reflete_no_escuro.png",
+            "image_mobile_id": "shopify:\/\/shop_images\/Reflete_no_escuro_MOBILE.png",
+            "banner_url": "",
+            "enable_link": false
+          }
+        },
         "5e694671-bfb2-465f-9d56-511a923b5ed0": {
           "type": "rich_text",
           "settings": {
@@ -83,6 +92,7 @@
       "block_order": [
         "dac8060d-a6a1-4a9a-a97f-58ee7874c387",
         "b41d17ab-bd60-4691-adf2-b5ea7008eb0c",
+        "313f1ac0-df4f-429c-9d66-23bffabaf6bf",
         "5e694671-bfb2-465f-9d56-511a923b5ed0"
       ],
       "settings": {
