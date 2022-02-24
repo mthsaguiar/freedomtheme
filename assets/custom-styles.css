@@ -531,8 +531,8 @@ body .product__info-wrapper .product-price__wrapper{
     position: absolute;
     width: 124px;
     height: 124px;
-    right: -48px;
-    top: -24px;
+    right: -80px;
+    top: -36px;
 }
 .custom-table__link svg{
     width: 100%;
@@ -657,6 +657,7 @@ body .jdgm-histogram.jdgm-temp-hidden{
     }
     .custom-table__link{
         top: 48px;
+        right: 12px;
         z-index: 4;
     }    
 }
