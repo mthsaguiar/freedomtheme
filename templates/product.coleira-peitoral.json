@@ -157,7 +157,7 @@
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
-        "heading": "Você pode gostar também",
+        "heading": "quem viu esse produto, viu também",
         "image_ratio": "adapt",
         "show_secondary_image": false,
         "show_vendor": false,
