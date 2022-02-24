@@ -76,20 +76,20 @@
             "tab_content_3": ""
           }
         },
-        "b41d17ab-bd60-4691-adf2-b5ea7008eb0c": {
-          "type": "banner",
-          "settings": {
-            "image_id": "shopify:\/\/shop_images\/area_de_medicao.png",
-            "image_mobile_id": "shopify:\/\/shop_images\/area_de_medicao_mobile.png",
-            "banner_url": "",
-            "enable_link": false
-          }
-        },
         "dac8060d-a6a1-4a9a-a97f-58ee7874c387": {
           "type": "banner",
           "settings": {
             "image_id": "shopify:\/\/shop_images\/Peitoral_ajustavel_1.png",
             "image_mobile_id": "shopify:\/\/shop_images\/Peitoral_ajustavel_mobile_1.png",
+            "banner_url": "",
+            "enable_link": false
+          }
+        },
+        "b41d17ab-bd60-4691-adf2-b5ea7008eb0c": {
+          "type": "banner",
+          "settings": {
+            "image_id": "shopify:\/\/shop_images\/area_de_medicao.png",
+            "image_mobile_id": "shopify:\/\/shop_images\/area_de_medicao_mobile_1.png",
             "banner_url": "",
             "enable_link": false
           }
@@ -107,8 +107,8 @@
       "block_order": [
         "5e694671-bfb2-465f-9d56-511a923b5ed0",
         "47c8136c-5203-42ed-aa9d-62c5c3f96e72",
-        "b41d17ab-bd60-4691-adf2-b5ea7008eb0c",
         "dac8060d-a6a1-4a9a-a97f-58ee7874c387",
+        "b41d17ab-bd60-4691-adf2-b5ea7008eb0c",
         "313f1ac0-df4f-429c-9d66-23bffabaf6bf"
       ],
       "settings": {
