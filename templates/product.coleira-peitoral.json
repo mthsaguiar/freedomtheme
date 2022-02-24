@@ -54,13 +54,11 @@
     "1643996280ff154122": {
       "type": "landing-accordion",
       "blocks": {
-        "dac8060d-a6a1-4a9a-a97f-58ee7874c387": {
-          "type": "banner",
+        "5e694671-bfb2-465f-9d56-511a923b5ed0": {
+          "type": "rich_text",
           "settings": {
-            "image_id": "shopify:\/\/shop_images\/Peitoral_ajustavel_1.png",
-            "image_mobile_id": "shopify:\/\/shop_images\/Peitoral_ajustavel_mobile_1.png",
-            "banner_url": "",
-            "enable_link": false
+            "title_id": "<p>Tecnologia MACIEZ ULTRA<\/p>",
+            "content_id": "<p><strong>Conta com tecnologia de ponta desenvolvida para aumentar a qualidade do sono dos animais!<\/strong><\/p>"
           }
         },
         "b41d17ab-bd60-4691-adf2-b5ea7008eb0c": {
@@ -68,6 +66,15 @@
           "settings": {
             "image_id": "shopify:\/\/shop_images\/area_de_medicao.png",
             "image_mobile_id": "shopify:\/\/shop_images\/area_de_medicao_mobile.png",
+            "banner_url": "",
+            "enable_link": false
+          }
+        },
+        "dac8060d-a6a1-4a9a-a97f-58ee7874c387": {
+          "type": "banner",
+          "settings": {
+            "image_id": "shopify:\/\/shop_images\/Peitoral_ajustavel_1.png",
+            "image_mobile_id": "shopify:\/\/shop_images\/Peitoral_ajustavel_mobile_1.png",
             "banner_url": "",
             "enable_link": false
           }
@@ -80,20 +87,13 @@
             "banner_url": "",
             "enable_link": false
           }
-        },
-        "5e694671-bfb2-465f-9d56-511a923b5ed0": {
-          "type": "rich_text",
-          "settings": {
-            "title_id": "<p>Tecnologia MACIEZ ULTRA<\/p>",
-            "content_id": "<p><strong>Conta com tecnologia de ponta desenvolvida para aumentar a qualidade do sono dos animais!<\/strong><\/p>"
-          }
         }
       },
       "block_order": [
-        "dac8060d-a6a1-4a9a-a97f-58ee7874c387",
+        "5e694671-bfb2-465f-9d56-511a923b5ed0",
         "b41d17ab-bd60-4691-adf2-b5ea7008eb0c",
-        "313f1ac0-df4f-429c-9d66-23bffabaf6bf",
-        "5e694671-bfb2-465f-9d56-511a923b5ed0"
+        "dac8060d-a6a1-4a9a-a97f-58ee7874c387",
+        "313f1ac0-df4f-429c-9d66-23bffabaf6bf"
       ],
       "settings": {
         "title_id": "DESCRIÇÃO DO PRODUTO",
