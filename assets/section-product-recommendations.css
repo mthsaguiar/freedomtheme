@@ -3,6 +3,10 @@
 }
 
 .product-recommendations__heading {
-  margin: 0;
-  margin-bottom: 3rem;
+  margin: 0 auto;
+  padding: 0 0 2rem;
+  text-align: center;
+  line-height: 3rem;
+  font-weight: bold;
+  font-size: 3rem;
 }

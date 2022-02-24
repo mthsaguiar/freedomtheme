@@ -80,8 +80,9 @@
     transform: rotateY(180deg);
 }
 .list-menu__item span{
-    text-transform: uppercase;
+    text-transform: none;
     font-weight: bold;
+    font-size: 1.6rem;
 }
 .menu-drawer__account svg{
     margin-right: 1rem;
@@ -255,6 +256,17 @@
 }
 .footer-above-menu__container{
     padding-top: 2rem;
+    flex-wrap: wrap;
+}
+.contact-info__footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.contact-info__footer span{
+    padding: 2rem 1rem 0;
+    font-weight: bold;
 }
 
 .product-announce{
@@ -278,6 +290,9 @@
     }
     .social-media__container ul{
         padding: 3rem 0 0 0;
+    }
+    .contact-info__footer{
+        flex-direction: row;
     }
 
     .footer-above-menu__container{
@@ -701,3 +716,12 @@ body .jdgm-histogram.jdgm-temp-hidden{
 }
 
 /*PAGES[END]*/
+
+/*COLLECTIONS PAGE[START]*/
+.icon.icon-caret{
+    height: 1.25rem;
+    width: 1.25rem;
+    top: 0.25rem;
+    right: -0.5rem;
+}
+/*COLLECTIONS PAGE[END]*/
