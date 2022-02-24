@@ -156,9 +156,8 @@
     },
     "product-recommendations": {
       "type": "product-recommendations",
-      "disabled": true,
       "settings": {
-        "heading": "You may also like",
+        "heading": "Você pode gostar também",
         "image_ratio": "adapt",
         "show_secondary_image": false,
         "show_vendor": false,
