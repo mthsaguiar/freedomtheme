@@ -15,7 +15,7 @@
                 {{ product_card_product.featured_media | img_url: 'master' }} {{ product_card_product.featured_media.width }}w"
                 src="{{ product_card_product.featured_media | img_url: '533x' }}"
                 alt="{{ product_card_product.featured_media.alt | escape }}"
-                loading="lazy"
+                {%if template != 'collection' %} loading="lazy" {% endif %}
                 class="motion-reduce"
                 width="{{ product_card_product.featured_media.width }}"
                 height="{{ product_card_product.featured_media.height }}"
