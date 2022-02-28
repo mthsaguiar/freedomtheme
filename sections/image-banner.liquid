@@ -1,7 +1,9 @@
 <!-- sections/image-banner.liquid -->
 {{ 'section-image-banner.css' | asset_url | stylesheet_tag }}
-<link rel="preload" href="{{ section.settings.image_mobile }}" as="image" />
-<link rel="preload" href="{{ section.settings.image }}" as="image" />
+{%- for block in section.blocks -%}
+<link rel="preload" href="{{ block.settings.image_mobile }}" as="image" />
+<link rel="preload" href="{{  block.settings.image }}" as="image" />
+{%- endfor -%}
 <!-- Uncomment this call above to activate the banner slider -->
 <!-- <script src="{{ 'image-banner-slide.js' | asset_url }}" defer="defer"></script> -->
 
@@ -31,8 +33,9 @@
    {%- endstyle -%}
 {%- endfor -%}
 
+
 <div id="Banner-{{ section.id }}" class="banner">
-  <a href="{{ section.settings.button_url }}" class="banner__btn">{{section.settings.banner_button}}</a>
+   hello {{ test }}
   <ul class="banner__swiper-slide">
      {%- for block in section.blocks -%}
       <li>
@@ -56,6 +59,27 @@
      {%- endfor -%}
   </ul>
 </div>
+<script>
+   const template = '{{ template }}';
+   console.log('template', template);
+   const sectionID = '{{ section.id }}';
+   const idMutation = document.getElementById('MainContent');
+   const config = { attributes: true, childList: true, subtree: true };
+
+   function mutationCallback (mutationsList, observer) {
+    if(window.innerWidth <= 749){
+       console.log('entrou aqui');
+       if(document.querySelector('.banner__media img') != null){
+         console.log('entrou aqui tb');
+         document.querySelector('.banner__media img').remove();
+       }
+    }
+   }
+
+    const bannerObserver = new MutationObserver(mutationCallback);
+    bannerObserver.observe(idMutation, config);
+   
+</script>
 
 {% schema %}
 {
