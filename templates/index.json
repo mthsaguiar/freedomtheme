@@ -6,9 +6,9 @@
         "19b4b371-3032-4e51-8f45-bba44ad1f609": {
           "type": "text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/home-dek.png",
+            "image": "shopify:\/\/shop_images\/CONFORTO_88639941-fe90-4ca4-9521-f5447253e69a.png",
             "link_url": "shopify:\/\/products\/cama-pet-ultra-comfort",
-            "image_mobile": "shopify:\/\/shop_images\/home-mobile_03afdb50-e7d7-4aa6-9df0-b19e96163a96.png"
+            "image_mobile": "shopify:\/\/shop_images\/CONFORTO_400_x_350_px_400_x_250_px.png"
           }
         }
       },
@@ -101,7 +101,7 @@
           "type": "review",
           "settings": {
             "author": "@matheus",
-            "content": "In publishing and graphic design.",
+            "content": "Os produtos são de qualidade e o atendimento é muito bom",
             "star_range": 5
           }
         },
@@ -109,7 +109,7 @@
           "type": "review",
           "settings": {
             "author": "@bruno",
-            "content": "In publishing and graphic design.",
+            "content": "Comprei uma coleira e não me arrependi, é boa",
             "star_range": 5
           }
         },
@@ -117,7 +117,7 @@
           "type": "review",
           "settings": {
             "author": "@aracelli",
-            "content": "In publishing and graphic design.",
+            "content": "Recomento, boa loja",
             "star_range": 5
           }
         },
@@ -125,23 +125,23 @@
           "type": "review",
           "settings": {
             "author": "@amora",
-            "content": "In publishing and graphic design.",
+            "content": "Produto demorou de chegar, pelo menos atenderam bem",
             "star_range": 5
           }
         },
         "3a81f643-947b-47c4-bbf3-75074a3e8bca": {
           "type": "review",
           "settings": {
-            "author": "@bruquisfilde",
-            "content": "In publishing and graphic design.",
+            "author": "@silviaandrad",
+            "content": "Gostei!",
             "star_range": 5
           }
         },
         "3bfa8c64-23bc-4ae8-943a-20e654abbd7d": {
           "type": "review",
           "settings": {
-            "author": "@semnome",
-            "content": "In publishing and graphic design.",
+            "author": "@sandramatos",
+            "content": "Produtos tem qualidade",
             "star_range": 5
           }
         }
