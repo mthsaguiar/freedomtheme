@@ -1,6 +1,8 @@
 .shipping-bar_component {
     text-align: center;
     padding: 2px 0;
+}
+#vue-shipping-section{
     height: 36px;
 }
 
