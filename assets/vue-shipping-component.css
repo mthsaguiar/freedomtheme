@@ -1,6 +1,7 @@
 .shipping-bar_component {
     text-align: center;
     padding: 2px 0;
+    height: 36px;
 }
 
 .shipping--bar__message {
