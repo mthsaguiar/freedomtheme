@@ -35,6 +35,9 @@
 /*GENERAL[END]*/
 
 /* HEADER[START] */
+#shopify-section-header{
+    height: fit-content;
+}
 .search__container{
     grid-area: search
 }
