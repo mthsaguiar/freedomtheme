@@ -60,16 +60,13 @@
 </div>
 <script>
    const template = '{{ template }}';
-   console.log('template', template);
    const sectionID = '{{ section.id }}';
    const idMutation = document.getElementById('MainContent');
    const config = { attributes: true, childList: true, subtree: true };
 
    function mutationCallback (mutationsList, observer) {
     if(window.innerWidth <= 749){
-       console.log('entrou aqui');
        if(document.querySelector('.banner__media img') != null){
-         console.log('entrou aqui tb');
          document.querySelector('.banner__media img').remove();
        }
     }

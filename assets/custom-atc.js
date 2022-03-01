@@ -2,7 +2,6 @@ window.addEventListener('load', ()=>{
     const formElement = document.querySelector('.custom__atc')
     formElement.addEventListener('submit', (e)=>{
         e.preventDefault();
-        console.log(e.target);
         const config = fetchConfig('javascript');
         config.body = JSON.stringify({
             ...JSON.parse(serializeForm(e.target))
@@ -11,7 +10,6 @@ window.addEventListener('load', ()=>{
         .then((response) => response.json())
         .then((response) => {
           if (response.status) {
-            console.log(response.status)
             return;
           }
         })

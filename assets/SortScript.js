@@ -1,2 +1,2 @@
 
-console.log('Deu certo');
+console.log('right');
