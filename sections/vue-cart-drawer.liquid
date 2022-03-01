@@ -5,7 +5,10 @@
 --cart-drawer-buttons: {{ section.settings.buttons_color }};
 }
 {% endstyle %}
-{{ 'vue-cart-drawer.css' | asset_url | stylesheet_tag }}
+    <noscript>{{ 'vue-cart-drawer.css' | asset_url | stylesheet_tag }}</noscript>
+
+    <link rel="stylesheet" href="{{ 'vue-cart-drawer.css' | asset_url }}" media="print" onload="this.media='all'">
+
 
 {%- render 'vue-shipping-component' -%}
 
