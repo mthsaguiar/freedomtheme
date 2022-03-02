@@ -1,7 +1,20 @@
 <!-- vue-shipping-component => [cart-drawer; vue-shipping-section] -->
-{{ 'vue-shipping-component.css' | asset_url | stylesheet_tag }}
 <script src="{{ 'vue-shipping-component.js' | asset_url }}" defer="defer"></script>
+<style>
+.shipping-bar_component {
+    text-align: center;
+    padding: 2px 0;
+}
+#vue-shipping-section{
+    height: 36px;
+}
 
+.shipping--bar__message {
+    font-size: 1.6rem;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+}
+</style>
 {%- capture shipping_container -%}
 <div class="shipping-bar_component">
   <span class="shipping--bar__message">
