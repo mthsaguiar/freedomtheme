@@ -245,7 +245,6 @@
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
-    padding-top: 3rem;
 }
 .footer-menu__full-width a{
     color: #030d4f;
@@ -276,9 +275,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-}
-.product-announce__item:last-child{
-    padding-top: 2rem;
 }
 .copyright__wrapper h4{
     margin: 0;
