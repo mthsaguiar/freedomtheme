@@ -199,6 +199,50 @@
           {%- case block.type -%}
           {%- when '@app' -%}
             {% render block %}
+          {%- when 'badges' -%}
+          <div class="trust-badges__container">
+            <ul>
+              <li>
+                <img
+                    srcset="{% if block.settings.badge_1.width >= 200 %}{{ block.settings.badge_1 | img_url: '200x' }} 200w,{% endif %}
+                      {% if block.settings.badge_1.width >= 600 %}{{ block.settings.badge_1 | img_url: '600x' }} 600w,{% endif %}
+                      {% if block.settings.badge_1.width >= 713 %}{{ block.settings.badge_1 | img_url: '713x' }} 713w,{% endif %}"
+                    src="{{ block.settings.badge_1 | img_url: '200x' }}"
+                    sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | times: media_width | round }}px, (min-width: 990px) calc({{ media_width | times: 100 }}vw - 10rem), (min-width: 750px) calc((100vw - 11.5rem) / 2), calc(100vw - 4rem)"
+                    loading="lazy"
+                    width="200"
+                    height="{{ 200 | divided_by: block.settings.badge_1.aspect_ratio | ceil }}"
+                    alt="{{ block.settings.badge_1.alt | escape }}"
+                  >
+              </li>
+                <img
+                      srcset="{% if block.settings.badge_1.width >= 200 %}{{ block.settings.badge_1 | img_url: '200x' }} 200w,{% endif %}
+                        {% if block.settings.badge_1.width >= 600 %}{{ block.settings.badge_1 | img_url: '600x' }} 600w,{% endif %}
+                        {% if block.settings.badge_1.width >= 713 %}{{ block.settings.badge_1 | img_url: '713x' }} 713w,{% endif %}"
+                      src="{{ block.settings.badge_1 | img_url: '200x' }}"
+                      sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | times: media_width | round }}px, (min-width: 990px) calc({{ media_width | times: 100 }}vw - 10rem), (min-width: 750px) calc((100vw - 11.5rem) / 2), calc(100vw - 4rem)"
+                      loading="lazy"
+                      width="200"
+                      height="{{ 200 | divided_by: block.settings.badge_1.aspect_ratio | ceil }}"
+                      alt="{{ block.settings.badge_1.alt | escape }}"
+                    >
+              <li>
+              </li>
+              <li>
+                <img
+                    srcset="{% if block.settings.badge_1.width >= 200 %}{{ block.settings.badge_1 | img_url: '200x' }} 200w,{% endif %}
+                      {% if block.settings.badge_1.width >= 600 %}{{ block.settings.badge_1 | img_url: '600x' }} 600w,{% endif %}
+                      {% if block.settings.badge_1.width >= 713 %}{{ block.settings.badge_1 | img_url: '713x' }} 713w,{% endif %}"
+                    src="{{ block.settings.badge_1 | img_url: '200x' }}"
+                    sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | times: media_width | round }}px, (min-width: 990px) calc({{ media_width | times: 100 }}vw - 10rem), (min-width: 750px) calc((100vw - 11.5rem) / 2), calc(100vw - 4rem)"
+                    loading="lazy"
+                    width="200"
+                    height="{{ 200 | divided_by: block.settings.badge_1.aspect_ratio | ceil }}"
+                    alt="{{ block.settings.badge_1.alt | escape }}"
+                  >
+              </li>
+            </ul>
+          </div>
           {%- when 'text' -%}
             <p class="product__text{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}" {{ block.shopify_attributes }}>
               {{- block.settings.text -}}
@@ -671,6 +715,27 @@
   "blocks": [
     {
       "type": "@app"
+    },
+    {
+      "type": "badges",
+      "name": "Trust badges",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "badge_1",
+          "label": "Trust badge SVG 1"
+        },
+        {
+          "type": "image_picker",
+          "id": "badge_2",
+          "label": "Trust badge SVG 2"
+        },
+        {
+          "type": "image_picker",
+          "id": "badge_3",
+          "label": "Trust badge SVG 3"
+        }
+      ]
     },
     {
       "type": "text",
