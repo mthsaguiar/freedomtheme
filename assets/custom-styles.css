@@ -636,6 +636,23 @@ body .jdgm-histogram.jdgm-temp-hidden{
 .spr-summary-actions{
     width: 100%;
 }
+.trust-badges__container ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 100%;
+}
+.trust-badges__container ul li{
+    width: 33%;
+}
+.trust-badges__container ul li img{
+    width: 100%;
+    height: auto;
+}
+.product__info-container .trust-badges__container{
+    margin: 0;
+}
 @media screen and (min-width: 750px) {
     .spr-form-contact{
         display: flex;

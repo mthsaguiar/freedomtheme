@@ -215,30 +215,30 @@
                     alt="{{ block.settings.badge_1.alt | escape }}"
                   >
               </li>
-                <img
-                      srcset="{% if block.settings.badge_1.width >= 200 %}{{ block.settings.badge_1 | img_url: '200x' }} 200w,{% endif %}
-                        {% if block.settings.badge_1.width >= 600 %}{{ block.settings.badge_1 | img_url: '600x' }} 600w,{% endif %}
-                        {% if block.settings.badge_1.width >= 713 %}{{ block.settings.badge_1 | img_url: '713x' }} 713w,{% endif %}"
-                      src="{{ block.settings.badge_1 | img_url: '200x' }}"
-                      sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | times: media_width | round }}px, (min-width: 990px) calc({{ media_width | times: 100 }}vw - 10rem), (min-width: 750px) calc((100vw - 11.5rem) / 2), calc(100vw - 4rem)"
-                      loading="lazy"
-                      width="200"
-                      height="{{ 200 | divided_by: block.settings.badge_1.aspect_ratio | ceil }}"
-                      alt="{{ block.settings.badge_1.alt | escape }}"
-                    >
               <li>
+                <img
+                srcset="{% if block.settings.badge_2.width >= 200 %}{{ block.settings.badge_2 | img_url: '200x' }} 200w,{% endif %}
+                  {% if block.settings.badge_2.width >= 600 %}{{ block.settings.badge_2 | img_url: '600x' }} 600w,{% endif %}
+                  {% if block.settings.badge_2.width >= 713 %}{{ block.settings.badge_2 | img_url: '713x' }} 713w,{% endif %}"
+                src="{{ block.settings.badge_2 | img_url: '200x' }}"
+                sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | times: media_width | round }}px, (min-width: 990px) calc({{ media_width | times: 100 }}vw - 10rem), (min-width: 750px) calc((100vw - 11.5rem) / 2), calc(100vw - 4rem)"
+                loading="lazy"
+                width="200"
+                height="{{ 200 | divided_by: block.settings.badge_2.aspect_ratio | ceil }}"
+                alt="{{ block.settings.badge_2.alt | escape }}"
+              >
               </li>
               <li>
                 <img
-                    srcset="{% if block.settings.badge_1.width >= 200 %}{{ block.settings.badge_1 | img_url: '200x' }} 200w,{% endif %}
-                      {% if block.settings.badge_1.width >= 600 %}{{ block.settings.badge_1 | img_url: '600x' }} 600w,{% endif %}
-                      {% if block.settings.badge_1.width >= 713 %}{{ block.settings.badge_1 | img_url: '713x' }} 713w,{% endif %}"
-                    src="{{ block.settings.badge_1 | img_url: '200x' }}"
+                    srcset="{% if block.settings.badge_3.width >= 200 %}{{ block.settings.badge_3 | img_url: '200x' }} 200w,{% endif %}
+                      {% if block.settings.badge_3.width >= 600 %}{{ block.settings.badge_3 | img_url: '600x' }} 600w,{% endif %}
+                      {% if block.settings.badge_3.width >= 713 %}{{ block.settings.badge_3 | img_url: '713x' }} 713w,{% endif %}"
+                    src="{{ block.settings.badge_3 | img_url: '200x' }}"
                     sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | times: media_width | round }}px, (min-width: 990px) calc({{ media_width | times: 100 }}vw - 10rem), (min-width: 750px) calc((100vw - 11.5rem) / 2), calc(100vw - 4rem)"
                     loading="lazy"
                     width="200"
-                    height="{{ 200 | divided_by: block.settings.badge_1.aspect_ratio | ceil }}"
-                    alt="{{ block.settings.badge_1.alt | escape }}"
+                    height="{{ 200 | divided_by: block.settings.badge_3.aspect_ratio | ceil }}"
+                    alt="{{ block.settings.badge_3.alt | escape }}"
                   >
               </li>
             </ul>
