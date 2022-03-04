@@ -96,9 +96,6 @@
     background: #FFF;
     box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
 }
-.media > *:not(.zoom):not(.deferred-media__poster-button), .media model-viewer{
-    min-width: 100%;
-}
 @media screen and (min-width: 750px) {
     .predictive-search.predictive-search--header{
         width: max-content;
