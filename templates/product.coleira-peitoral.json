@@ -29,6 +29,14 @@
           "settings": {
             "show_dynamic_checkout": false
           }
+        },
+        "25877ba8-4b32-4cb2-b7d4-9293883bd07d": {
+          "type": "badges",
+          "settings": {
+            "badge_1": "shopify:\/\/shop_images\/1.png",
+            "badge_2": "shopify:\/\/shop_images\/2.png",
+            "badge_3": "shopify:\/\/shop_images\/3.png"
+          }
         }
       },
       "block_order": [
@@ -36,7 +44,8 @@
         "price",
         "variant_picker",
         "quantity_selector",
-        "buy_buttons"
+        "buy_buttons",
+        "25877ba8-4b32-4cb2-b7d4-9293883bd07d"
       ],
       "settings": {
         "enable_sticky_info": true,
