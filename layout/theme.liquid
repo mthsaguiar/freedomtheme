@@ -185,7 +185,9 @@
         font-style: var(--font-body-style);
         font-weight: var(--font-body-weight);
       }
-
+      #cart-drawer{
+        display: none;
+      }
       @media screen and (min-width: 750px) {
         body {
           font-size: 1.6rem;
@@ -194,26 +196,8 @@
     {% endstyle %}
     
 
-    
-    
-    <noscript>
-      <link rel="stylesheet" type="text/css" href="{{ 'base.css' | asset_url | stylesheet_tag }}"/>
-      <link rel="stylesheet" type="text/css" href="{{ 'custom-styles.css' | asset_url | stylesheet_tag }}"/>
-    </noscript>
-    <script defer>
-      (function() {
-          var cssMain = document.createElement('div');
-          var linkMain = `{{ 'base.css' | asset_url | stylesheet_tag }}`;
-          cssMain.innerHTML = linkMain;
-          document.getElementsByTagName('head')[0].appendChild(cssMain);
-      })();
-      (function() {
-          var cssBase = document.createElement('div');
-          var linkCustom = `{{ 'custom-styles.css' | asset_url | stylesheet_tag }}`;
-          cssBase.innerHTML = linkCustom;
-          document.getElementsByTagName('head')[0].appendChild(cssBase);
-      })();
-      </script>
+    {{ 'base.css' | asset_url | stylesheet_tag }}
+    {{ 'custom-styles.css' | asset_url | stylesheet_tag  }}
 
     {%- unless settings.type_body_font.system? -%}
       <link rel="preload" as="font" href="{{ settings.type_body_font | font_url }}" type="font/woff2" crossorigin>
