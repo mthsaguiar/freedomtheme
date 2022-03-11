@@ -63,13 +63,6 @@
     "1643996280ff154122": {
       "type": "landing-accordion",
       "blocks": {
-        "5e694671-bfb2-465f-9d56-511a923b5ed0": {
-          "type": "rich_text",
-          "settings": {
-            "title_id": "<p>A coleira que seu dog está esperando<\/p>",
-            "content_id": "<p>A <strong>guia retrátil ultra comfort <\/strong>torna a vida do seu cachorro mais fácil. O design é pensado na segurança e conforto do passeio. O equipamento conta com um formato inteligente para facilitar o manuseio. A possibilidade de extensão da guia dá muito sensação de liberdade para seu cão.<\/p>"
-          }
-        },
         "47c8136c-5203-42ed-aa9d-62c5c3f96e72": {
           "type": "acc-image",
           "settings": {
@@ -83,6 +76,13 @@
             "tab_content_2": "",
             "tab_title_3": "",
             "tab_content_3": ""
+          }
+        },
+        "5e694671-bfb2-465f-9d56-511a923b5ed0": {
+          "type": "rich_text",
+          "settings": {
+            "title_id": "<p>A coleira que seu dog está esperando<\/p>",
+            "content_id": "<p>A <strong>guia retrátil ultra comfort <\/strong>torna a vida do seu cachorro mais fácil. O design é pensado na segurança e conforto do passeio. O equipamento conta com um formato inteligente para facilitar o manuseio. A possibilidade de extensão da guia dá muito sensação de liberdade para seu cão.<\/p>"
           }
         },
         "dac8060d-a6a1-4a9a-a97f-58ee7874c387": {
@@ -114,8 +114,8 @@
         }
       },
       "block_order": [
-        "5e694671-bfb2-465f-9d56-511a923b5ed0",
         "47c8136c-5203-42ed-aa9d-62c5c3f96e72",
+        "5e694671-bfb2-465f-9d56-511a923b5ed0",
         "dac8060d-a6a1-4a9a-a97f-58ee7874c387",
         "b41d17ab-bd60-4691-adf2-b5ea7008eb0c",
         "313f1ac0-df4f-429c-9d66-23bffabaf6bf"
