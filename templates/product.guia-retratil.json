@@ -67,7 +67,7 @@
           "type": "acc-image",
           "settings": {
             "title_id": "",
-            "image_id": "shopify:\/\/shop_images\/dog.png",
+            "image_id": "shopify:\/\/shop_images\/dog_image_1.png",
             "enable_text": true,
             "text_content_id": "<style>\n.custom-dog-content{\ntext-align: left;\n    color: #323232;\n    margin: 0;\n    line-height: 2.25rem;\n    font-size: 1.75rem;\n}\n<\/style>\n<div class=\"custom-dog-content\">\nA coleira conta com duas opções para a utilização da guia: <b>frontal e superior<\/b>. O suporte de guia frontal é indicada para cães que não estão acostumados, e acabam puxando muito o seu acompanhante. Isso também faz com que o cão não desenvolva problemas que podem ser causados por puxar e resistir muito durante os passeios.\n<\/div>",
             "tab_title_1": "",
@@ -81,7 +81,7 @@
         "5e694671-bfb2-465f-9d56-511a923b5ed0": {
           "type": "rich_text",
           "settings": {
-            "title_id": "<p>A coleira que seu dog está esperando<\/p>",
+            "title_id": "<p>A guia que seu dog está esperando<\/p>",
             "content_id": "<p>A <strong>guia retrátil ultra comfort <\/strong>torna a vida do seu cachorro mais fácil. O design é pensado na segurança e conforto do passeio. O equipamento conta com um formato inteligente para facilitar o manuseio. A possibilidade de extensão da guia dá muito sensação de liberdade para seu cão.<\/p>"
           }
         },
