@@ -78,6 +78,15 @@
             "tab_content_3": ""
           }
         },
+        "b41d17ab-bd60-4691-adf2-b5ea7008eb0c": {
+          "type": "banner",
+          "settings": {
+            "image_id": "shopify:\/\/shop_images\/Banner_2_1.png",
+            "image_mobile_id": "shopify:\/\/shop_images\/Banner_2_mobile_1.png",
+            "banner_url": "",
+            "enable_link": false
+          }
+        },
         "5e694671-bfb2-465f-9d56-511a923b5ed0": {
           "type": "rich_text",
           "settings": {
@@ -90,15 +99,6 @@
           "settings": {
             "image_id": "shopify:\/\/shop_images\/banner_tamanho_guia_retratil_1.png",
             "image_mobile_id": "shopify:\/\/shop_images\/banner_tamanho_guia_retratil_mobile.png",
-            "banner_url": "",
-            "enable_link": false
-          }
-        },
-        "b41d17ab-bd60-4691-adf2-b5ea7008eb0c": {
-          "type": "banner",
-          "settings": {
-            "image_id": "shopify:\/\/shop_images\/Banner_2_1.png",
-            "image_mobile_id": "shopify:\/\/shop_images\/Banner_2_mobile.png",
             "banner_url": "",
             "enable_link": false
           }
@@ -124,9 +124,9 @@
       },
       "block_order": [
         "47c8136c-5203-42ed-aa9d-62c5c3f96e72",
+        "b41d17ab-bd60-4691-adf2-b5ea7008eb0c",
         "5e694671-bfb2-465f-9d56-511a923b5ed0",
         "dac8060d-a6a1-4a9a-a97f-58ee7874c387",
-        "b41d17ab-bd60-4691-adf2-b5ea7008eb0c",
         "2fc968e9-9ce3-4c4a-9fab-80002fb8493f",
         "313f1ac0-df4f-429c-9d66-23bffabaf6bf"
       ],
