@@ -69,7 +69,7 @@
             "title_id": "",
             "image_id": "shopify:\/\/shop_images\/dog_image_1.png",
             "enable_text": true,
-            "text_content_id": "<style>\n.custom-dog-content{\ntext-align: left;\n    color: #323232;\n    margin: 0;\n    line-height: 2.25rem;\n    font-size: 1.75rem;\n}\n<\/style>\n<div class=\"custom-dog-content\">\nA <b>guia retrátil ultra comfort<\/b> conta com uma trava de segurança que impede que seu cão se mova de forma abrupta. A extensão da guia, que varia entre as versões de 3 e 5 metros, foi projetada para aumentar o conforto do bichinho durante o passeio. Estudos comprovam que o cão tende a ficar mais calmo durante o passeio quando tem mais liberdade para responder a seus instintos.\n<\/div>",
+            "text_content_id": "<style>\n.custom-dog-content{\ntext-align: left;\n    color: #323232;\n    margin: 0;\n    line-height: 2.25rem;\n    font-size: 1.75rem;\n}\n<\/style>\n<div class=\"custom-dog-content\">\nA <b>guia retrátil automática<\/b> torna a vida do seu cachorro mais fácil. O design é pensado na segurança e conforto do passeio. O equipamento conta com um formato inteligente para facilitar o manuseio. A possibilidade de extensão da guia dá muito sensação de liberdade para seu cão.\n<\/div>",
             "tab_title_1": "",
             "tab_content_1": "",
             "tab_title_2": "",
@@ -89,9 +89,10 @@
         },
         "5e694671-bfb2-465f-9d56-511a923b5ed0": {
           "type": "rich_text",
+          "disabled": true,
           "settings": {
             "title_id": "<p>A guia que seu dog está esperando<\/p>",
-            "content_id": "<p>A <strong>guia retrátil ultra comfort <\/strong>torna a vida do seu cachorro mais fácil. O design é pensado na segurança e conforto do passeio. O equipamento conta com um formato inteligente para facilitar o manuseio. A possibilidade de extensão da guia dá muito sensação de liberdade para seu cão.<\/p>"
+            "content_id": "<p>A <strong>guia retrátil automática <\/strong>torna a vida do seu cachorro mais fácil. O design é pensado na segurança e conforto do passeio. O equipamento conta com um formato inteligente para facilitar o manuseio. A possibilidade de extensão da guia dá muito sensação de liberdade para seu cão.<\/p>"
           }
         },
         "dac8060d-a6a1-4a9a-a97f-58ee7874c387": {
