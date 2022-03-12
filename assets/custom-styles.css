@@ -577,6 +577,7 @@ body .jdgm-histogram.jdgm-temp-hidden{
 .spr-stars svg path{
     fill: #ffc52c;
 }
+.spr-icon.spr-icon-star-half-alt::before,
 .spr-icon-star:before{
     color: #ffc52c;
 }
